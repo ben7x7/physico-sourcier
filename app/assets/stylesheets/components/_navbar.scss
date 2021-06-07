@@ -1,12 +1,30 @@
-.navbar-lewagon {
+.navbar {
+  width: 100%;
+  background-color: #FFFFFF;
+  color: #393939;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  background: white;
+  padding: 0px 30px;
+  position: fixed;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+#nav-logo {
+  height: 50px;
+  border-radius: 0px;
+  box-shadow: none;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+#brand {
+  font-weight: bold;
+}
+
+a.nav-link {
+  color: #393939;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 10vh;
+  width: 300px;
 }
