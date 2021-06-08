@@ -1,8 +1,13 @@
 <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">
-    <img src="./images/sourcier-logo.png" alt="navbar logo" id="nav-logo">
-  </a>
-  <span id="brand">PHYSIQUE-CHIMIE vs SOURCIER</span>
+  <div class="navbar-brand">
+    <%= link_to root_path, class:"navbar-brand" do %>
+      <%= image_tag 'sourcier-logo.png', id:"nav-logo" %>
+      <span id="brand">SourcierPhysicoChimiste</span>
+    <% end %>
+  </div>
+
+
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars"></i>
   </button>

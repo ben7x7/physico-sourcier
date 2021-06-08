@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
-  root to: 'pages#home'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  scope '(:locale)', locale: /fr|en/ do
+    root to: 'pages#home'
+
+    get 'eau', to: 'pages#eau', as: :eau
+    get 'electricite', to: 'pages#electricite', as: :electricite
+
+    get 'kookies', to: 'pages#kookies', as: :kookies
+    get 'mentions', to: 'pages#mentions', as: :mentions
+    get 'confidentialite', to: 'pages#confidentialite', as: :confidentialite
+  end
 end
