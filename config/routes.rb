@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'electricite', to: 'pages#electricite', as: :electricite
   get 'magnetisme', to: 'pages#magnetisme', as: :magnetisme
   get 'metaux', to: 'pages#metaux', as: :metaux
+  get 'cristaux', to: 'pages#cristaux', as: :cristaux
   get 'vegetale', to: 'pages#vegetale', as: :vegetale
 
   get 'kookies', to: 'pages#kookies', as: :kookies
