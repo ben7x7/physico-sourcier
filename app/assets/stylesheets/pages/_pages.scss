@@ -1,1 +1,47 @@
+.banner {
+  background-size: cover;
+  padding-top: 70px;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 
+.sub-section {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 80px 15px;
+  text-align: justify;
+}
+
+
+// *******************************  L'EAU  **********************************
+#eau {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('eau.WebP');
+}
+
+
+   // *******************************  ELECTRICITE  **************************
+#electricite {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('electricite.WebP');
+}
+
+
+  // *******************************  MAGNETISME  **************************
+#magnetisme {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('magnetisme.WebP');
+
+ }
+  // *******************************  CRISTAUX  **************************
+
+#cristaux {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('cristaux.WebP');
+
+}
+
+  // *******************************  BIO VEGETALE  **************************
+#vegetale {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('vegetale.WebP');
+}

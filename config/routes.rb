@@ -3,6 +3,9 @@ Rails.application.routes.draw do
 
   get 'eau', to: 'pages#eau', as: :eau
   get 'electricite', to: 'pages#electricite', as: :electricite
+  get 'magnetisme', to: 'pages#magnetisme', as: :magnetisme
+  get 'metaux', to: 'pages#metaux', as: :metaux
+  get 'vegetale', to: 'pages#vegetale', as: :vegetale
 
   get 'kookies', to: 'pages#kookies', as: :kookies
   get 'mentions', to: 'pages#mentions', as: :mentions
