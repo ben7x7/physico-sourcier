@@ -7,9 +7,6 @@
   justify-content: center;
   align-items: center;
   color: white;
-  h1 {
-    font-weight: 900 !important;
-  }
 }
 
 .sub-section {
@@ -19,6 +16,19 @@
   text-align: justify;
 }
 
+img {
+  margin: 10px 0px;
+  border-radius: 3px;
+}
+
+.image {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.double img {
+  margin-right: .5rem;
+}
 
 // *******************************  L'EAU  **********************************
 #eau {
@@ -40,8 +50,10 @@
   // *******************************  CRISTAUX  **************************
 
 #cristaux {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('cristaux.WebP');
-
+  background-image: image-url('cristaux.WebP');
+  h1 {
+    color: black;
+  }
 }
 
   // *******************************  CRISTAUX  **************************

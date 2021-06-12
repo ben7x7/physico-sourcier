@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 50px !important;
+  font-weight: 900 !important;
+}
+h2 {
+  padding-top: 1rem !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+}
+h3 {
+  font-size: 28px !important;
+  font-weight: 600 !important;
+}
+h4 {
+  font-size: 24px !important;
+  font-weight: 400 !important;
+}
+p {
+  font-size: 18px !important;
+}
+
+hr.separateur-xl {
+  height: 15px;
+  background: rgb(246,174,45);
+  background: -moz-linear-gradient(90deg, rgba(246,174,45,1) 0%, rgba(248,247,247,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(246,174,45,1) 0%, rgba(248,247,247,1) 100%);
+  background: linear-gradient(90deg, rgba(246,174,45,1) 0%, rgba(248,247,247,1) 100%);
+  margin: 0px 0px 40px 0px !important;
+  border: none !important;
+}
+
+hr.separateur-l {
+  height: 8px;
+  background: rgb(46,134,171);
+  background: -moz-linear-gradient(90deg, rgba(46,134,171,1) 50%, rgba(248,247,247,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(46,134,171,1) 50%, rgba(248,247,247,1) 100%);
+  background: linear-gradient(90deg, rgba(46,134,171,1) 50%, rgba(248,247,247,1) 100%);
+  margin: 0px 0px 30px 0px !important;
+  border: none !important;
+}
+
+hr.separateur-xs {
+  height: 4px;
+  background: rgb(86,86,87);
+  background: -moz-linear-gradient(90deg, rgba(86,86,87,1) 0%, rgba(248,247,247,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(86,86,87,1) 0%, rgba(248,247,247,1) 100%);
+  background: linear-gradient(90deg, rgba(86,86,87,1) 0%, rgba(248,247,247,1) 100%);
+  margin: 0px 0px 30px 0px !important;
+  border: none !important;
+}
