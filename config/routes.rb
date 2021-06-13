@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   get 'eau', to: 'pages#eau', as: :eau
   get 'electricite', to: 'pages#electricite', as: :electricite
+  get 'ondes', to: 'pages#ondes', as: :ondes
   get 'magnetisme', to: 'pages#magnetisme', as: :magnetisme
   get 'metaux', to: 'pages#metaux', as: :metaux
   get 'cristaux', to: 'pages#cristaux', as: :cristaux

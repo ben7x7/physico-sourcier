@@ -52,3 +52,7 @@ hr.separateur-xs {
   margin: 0px 0px 30px 0px !important;
   border: none !important;
 }
+
+sup, sub {
+  z-index: -1;
+}

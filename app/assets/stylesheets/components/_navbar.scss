@@ -17,11 +17,21 @@
 
 #brand {
   font-weight: bold;
+  color: #393939;
 }
 
-a.nav-link {
+a#navbarDropdown.dropdown-toggle {
+  color: #393939;
+}
+
+a.nav-link.dropdown-item {
   color: #393939;
   text-decoration: none;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .dropdown-menu {
@@ -29,3 +39,4 @@ a.nav-link {
   top: 10vh;
   width: 300px;
 }
+

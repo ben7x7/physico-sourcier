@@ -1,5 +1,5 @@
 <div class="banner" id="electricite">
-  <h1>L'ÉLECTRICITÉ</h1>
+  <h1>L'ELECTRICITE</h1>
 </div>
 <div class="section">
   <div class="sub-section">
@@ -25,8 +25,10 @@
     <h3>1.2.  Interaction entre piles</h3>
     <hr class="separateur-l">
     <p>Si l’on place deux piles sur une même ligne, les pôles + et – se succédant, les baguettes se dirigent dans la même direction (A). Par contre les signaux entre les deux piles disparaissent si deux pôles de même nature se succèdent (B). </p>
-    <!--  images -->
-    <h3>1.3.  Interaction pile/eau, pile/conducteur et pile/ferrite</h3>
+    <div class="image">
+      <%= image_tag 'entre2piles.WebP' %>
+    </div>
+    <h3>1.3.  Interaction pile-eau, pile-conducteur et pile-ferrite</h3>
     <hr class="separateur-l">
     <p>
       Lorsque l’on place sur l’axe d’une pile bâton un verre d’eau, on constate que les baguettes sont inactives lorsque l’eau est placée devant un pôle de la pile. Elles détectent le signal de la pile au niveau de l’autre pôle.
@@ -61,10 +63,13 @@
     <!--  images -->
     <p>
       Ces résultats montrent une grande analogie avec ce qui a été observé dans le cas des veines d’eau. Cette analogie est due au fait que l’intensité mesure un débit d’électrons et que ce dernier est directement lié à la section du fil qui le transporte. Dans le cas de l’eau on a la relation: <br>
-      Débit = vitesse de déplacement de l’eau x section de la veine d’eau. <br>
+      Débit = vitesse de déplacement de l’eau x section de la veine d’eau.
+    </p>
+    <p>
       Dans le cas du courant électrique on a la relation: <br>
       Intensité = densité de courant x section du conducteur
       où la densité de courant mesure la vitesse de déplacement des électrons dans le conducteur.
+    </p>
     </p>
     <div class="image">
       <%= image_tag 'circuit.WebP' %>
@@ -75,7 +80,9 @@
       On fait passer un courant de 4 ampères dans un fil de 0,5mm de diamètre relié à un fil de 1,0m, plus épais, dont le diamètre est de 2mm. Le rapport des surfaces est de 16. On note la graduation d3 pour le fil le plus fin et d4 pour l’autre.
 
     </p>
-    <!--  images -->
+    <div class="image">
+      <%= image_tag 'g-intensite.WebP' %>
+    </div>
     <p>
       La courbe signal d=f(intensité) montre que les variations sont plus importantes pour des intensités inférieures à 1A. <br>
       Il est remarquable de constater que le corps humain peut suivre les variations de densité de courant dans le circuit examiné alors qu’aucun appareil électrique ne peut le faire. On peut aussi remarquer que ces courbes sont très voisines de celles que nous avons déterminées pour le calcul du débit des veines d’eau.
@@ -99,7 +106,7 @@
       En conclusion, il est important de souligner les analogies de comportement des  baguettes vis-à-vis d’une veine d’eau et d’un courant continu. Les mouvements des molécules d’eau et des électrons conduisent aux mêmes conclusions tant au niveau de la direction des fluides, qu’au niveau des débits.
     </p>
 
-    <h2>2.  LIGNE TÉLÉPHONIQUE></h2>
+    <h2>2.  LIGNE TÉLÉPHONIQUE</h2>
     <hr class="separateur-xl">
     <p>
       Les lignes téléphoniques souterraines répondent comme une veine d’eau ou une ligne de courant continu excepté qu’elles ne donnent pas de signal lorsqu’on les chevauche.  <br>
@@ -121,14 +128,18 @@
       De l’autre côté du mur, où il n’y a rien d’apparent, elles s’orientent et s’ouvrent au même endroit dans le même sens. On peut suivre la ligne arrivant à cette prise, les baguettes s’orientant vers la prise. <br>
       Il est ainsi possible de détecter la présence de prises cachées derrière des meubles.
     </p>
-    <!--  images -->
+    <div class="image">
+      <%= image_tag 'prise.WebP' %>
+    </div>
     <h3>3.2.  Alimentation de prises de courant</h3>
     <hr class="separateur-l">
     <p>
       La ligne alimentant la prise A ne peut venir que de B et non de C ou D comme l’indique les baguettes. <br>
       Entre deux prises électriques, les baguettes répondent seulement si elles sont sur la même ligne.
     </p>
-    <!--  images -->
+    <div class="image">
+      <%= image_tag 'schema-electrique.WebP' %>
+    </div>
     <h3>3.3.  Contrôle de branchement</h3>
     <hr class="separateur-l">
     <p>
@@ -136,7 +147,9 @@
       Quand elle reste branchée mais éteinte, les baguettes donnent un signal et se dirigent vers l’interrupteur. Après l’interrupteur, le signal disparait. <br>
       Lorsque la lampe est débranchée il n’y a plus de signal.
     </p>
-    <!--  images -->
+    <div class="image">
+      <%= image_tag 'branchement.WebP' %>
+    </div>
     <h2>4.  ÉLECTROSTATIQUE</h2>
     <hr class="separateur-xl">
     <h3>4.1.  Effet d’influence</h3>
@@ -144,7 +157,9 @@
     <p>
       Lorsque l’on approche une tige conductrice du pôle + de la pile, il apparait des charges opposées sur les extrémités de la tige que l’on peut identifier avec les baguettes. L’intervalle de détection d des signaux augmente avec la tension de la pile.
     </p>
-    <!--  images -->
+    <div class="image">
+      <%= image_tag 'influence-pile.WebP' %>
+    </div>
     <h3>4.2.  Triboélectricité</h3>
     <hr class="separateur-l">
     <p>
@@ -153,7 +168,9 @@
       Quand on frotte une tige de verre sur de la laine, la tige de verre prend des charges positives, les baguettes sont dirigées vers l’extérieur de la tige. La laine prend des charges négatives, les baguettes se croisent. Le signal des baguettes augmente avec le temps de frottement. <br>
       Si l’on remplace la tige de verre par une tige en plastique, les signaux sont inversés. Il  y a conformité avec la série triboélectrique proposée.
     </p>
-    <!--  images -->
+    <div class="image">
+      <%= image_tag 'electrostatique.WebP' %>
+    </div>
     <p>
       J’ai observé que lorsqu’on approche les baguettes d’un objet isolant, celles-ci s’écartent lorsque cet objet est générateur de triboélectricité, et restent immobiles lorsqu’il ne l’est pas. <br>
       Ainsi certains tissus et plastiques, certaines couvertures de livre sont inhibitrices alors que les pages du livre ne le sont pas, que certains fruits ou légumes comme les pamplemousses ou les pommes de terre étaient inhibiteurs mais perdaient cette propriété lorsqu’ ils étaient épluchés ou coupés.
