@@ -3,9 +3,345 @@
 </div>
 <div class="section">
   <div class="sub-section">
-    <h2>1. </h2>
+    <h2>1.  ANALYSE DU COMPORTEMENT DES CONDUCTEURS ISOLES</h2>
     <hr class="separateur-xl">
+    <h3>1.1.  Caractérisation des conducteurs attirés par la ferrite: fer et nickel</h3>
+    <hr class="separateur-l">
+    <p>
+      Les conducteurs attirés par l’aimant comme le fer, le nickel, les pièces de 1€ et 2€ se comportent de la même manière, à condition qu’ils ne soient pas recouverts d’un autre métal comme les pièces de 0,01€ à 0,05€ en acier qui sont aussi attirées par la ferrite, mais qui totalement recouvertes par du cuivre, répondent comme tel.
+    </p>
+    <h4>1.1.1.  Signaux des pièces de 1€ et 2€</h4>
+    <hr class="separateur-xs">
+    <p>
+      Elles répondent de la même manière. Voici leur composition:
+    </p>
+    <ul>
+    <strong>Pièce de 2€</strong>:
+      <li>Couronne:    maillechort = 75% Cu, 20% Zn, 5% Ni</li>
+      <li>Centre:      cupronickel = 75% Cu, 25% Ni</li>
+    </ul>
+    <ul>
+    <strong>Pièce de 1€</strong>:
+      <li>Couronne:    cupronickel = 75% Cu, 25% Ni</li>
+      <li>Centre:      maillechort = 75% Cu, 20% Zn, 5% Ni</li>
+    </ul>
+    <p>
+      Si l’on met une pièce de 2€ sur la tranche, et que l’on s’en approche, les baguettes s’écartent lorsque l’on y fait face et se croisent lorsque l’on avance sur le côté à 90°. <br>
+      Si l’on se déplace parallèlement ou perpendiculairement à la pièce, la baguette du côté de la pièce reste immobile alors que l’autre s’en écarte.
+    </p>
+    <p>
+      Si l’on se trouve juste au-dessus de la pièce, sur sa tranche ou couchée, les baguettes sont inactives. Lorsque l’on se déplace à droite ou à gauche, la baguette proche de la pièce reste immobile, l’autre s’en écarte.
+    </p>
+    <p>
+      Quand on examine l’autre face sur sa tranche, les baguettes, en face, se croisent et s’écartent quand on est à 90°.  Les deux faces de la pièce ne répondent donc pas de la même manière.
+    </p>
+    <p>
+      La pièce de 2€ est détectable à 1,2m et celle de 1€ à 0,8m.
+    </p>
 
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h4>1.1.2.  Influence de l'aimantation</h4>
+    <hr class="separateur-xs">
+    <p>
+      Les signaux en rouge de la figure précédente changent lorsque la pièce est frottée par le pôle Sud de l’aimant: en face les baguettes se croisent et à 90° elles s’écartent. La face de la pièce devient pôle Nord et l’autre face pôle Sud. Les autres signaux ne sont pas modifiés.
+    </p>
+    <h4>1.1.3.  Influence de la surface</h4>
+    <hr class="separateur-xs">
+    <p>
+      Une pièce de 1€ sur la tranche est détectable à une distance D maximale de 0,8m si l’on se place en face. Si l’on superpose deux pièces de 1€ dans les mêmes conditions, la distance D reste la même. La surface vue par les baguettes est identique dans les deux cas. <br>
+      Si les deux pièces sont en contact par leur tranche, leur surface est multipliée par deux comme leur distance de détection soit D=1,6m. Si l’on sépare très peu ces deux pièces on retrouve D=0,8m. <br>
+      Les baguettes permettent ainsi de vérifier la qualité des contacts entre éléments de même composition.
+    </p>
+    <h3>1.2.  Comportement du cuivre et du zinc</h3>
+    <hr class="separateur-l">
+    <p>
+      La composition de la pièce de 0,50€ est riche en cuivre et très peu en zinc (89% Cu, 5% Al, 5% Zn, 1% Sn). Sur le plan horizontal, les baguettes s’orientent parallèlement vers la pièce mise verticalement sur sa tranche. Elles se croisent lorsque l’on se place juste au-dessus, et s’orientent en sens inverse de part et d’autre.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      Les signaux ne changent pas lorsque l’on retourne la pièce. Elle est détectable à 1,1m à 20°. <br>
+      Les signaux sont les mêmes avec une plaque de zinc pur (4 x 9 x 1cm) déposée sur sa tranche, qui est détectable à 3m à 20°.
+    </p>
+
+    <h3>1.3.  Comportement de l’or, de l’argent et du platine</h3>
+    <hr class="separateur-l">
+    <p>
+      L’or, l’argent et le platine, métaux précieux, à potentiel redox élevé, répondent de la même manière: les baguettes s’écartent de la pièce d’or analysée. Elles s’ouvrent lorsqu’elles se trouvent au-dessus de celle-ci. <br>
+      Les signaux sont inverses de ceux relatifs au cuivre et au zinc.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h3>1.4.  Comportement de l'auminium</h3>
+    <hr class="separateur-l">
+    <p>
+      Le papier d’aluminium alimentaire étudié a une face conductrice et l’autre isolante qui est mate. Les baguettes réagissent vis à vis de la face conductrice de la même manière que vis à vis du cuivre ou du zinc. Devant la face mate, les baguettes ne réagissent pas et ne révèlent donc pas le métal aluminium situé de l’autre côté.
+    </p>
+
+    <h4>1.4.1  Distance de détection</h4>
+    <hr class="separateur-xs">
+    <p>
+      La détection D d’un échantillon d’aluminium conducteur sous forme de plaque rectangulaire verticale est proportionnelle à sa surface: <br>
+      D = 8,5 10<sup>-3</sup> S - 0,23. <br>
+      Il est possible à partir de cette relation d’évaluer une surface plane complexe. Les mesures de D seront d’autant plus précises que les surfaces seront plus grandes.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h4>1.4.2  Influence de la température pour les divers conducteurs</h4>
+    <hr class="separateur-xs">
+    <p>
+      Comme dans les cas des ferrites, la température a une influence déterminante sur les valeurs de D des matériaux conducteurs. On constate en première approximation que les variations sont voisines et que les valeurs de D restent faibles à basse température.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      Comme la ferrite, un matériau conducteur peut servir de thermomètre à partir du moment où il est étalonné. La mesure implique un temps minimum pour que le métal prenne lui-même la température du lieu et un espace suffisant.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      Ce schéma rappelle l‘orientation des baguettes en fonction de la nature du métal posé horizontalement.
+    </p>
+    <h2>2.  ANALYSE DES INTERACTIONS ENTRE CONDUCTEURS</h2>
+    <hr class="separateur-xl">
+    <h3>2.1.  Contact entre conducteurs</h3>
+    <hr class="separateur-l">
+    <h4>2.1.1.  Contact entre pièces de monnaie</h4>
+    <hr class="separateur-xs">
+    <p>
+      Deux conducteurs de composition différente ne donnent pas de signal lorsqu’ils sont en contact, même si isolés ils se comportent de la même manière. Les pièces de 1€ et 2€ qui sont attirées par l’aimant du fait de leur teneur en nickel donnent le même signal prises séparément. Par contre, le signal disparait quand elles sont en contact car leur composition chimique n’est pas la même. <br>
+      Les pièces de 0,05€ et 0,02€ isolées ou en contact donnent la même réponse car elles ont la même composition. <br>
+      Il est donc possible de détecter des pièces fausses avec les baguettes de sourcier.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h4>2.1.2.  Contact isolant - conducteur</h4>
+    <hr class="separateur-xs">
+    <p>
+      Il est possible de tester l’efficacité d’un isolant avec les baguettes: quand l’isolant se trouve seul au-dessus d’un conducteur, les baguettes détectent le conducteur, à condition qu’il soit potentiellement dépourvu de charges triboélectriques. On détecte une pièce de 1€ si elle est recouverte de papier.
+    </p>
+    <p>
+      Ce cas est différent de celui du papier l’aluminium où la face mate non conductrice est chimiquement déposée sur la face métallique : les baguettes ne répondent pas lorsqu’elles sont en face de la face mate alors qu’elles le devraient si la partie mate et métallique étaient séparées. <br>
+      Il en est de même avec un objet en fer qui perd son signal lorsqu’il est peint.
+    </p>
+    <p>
+      Si l’on recouvre une pièce de nickel avec le papier d’aluminium, on détectera le signal de l’aluminium si la pièce est couverte par la partie isolante du papier. Dans le cas contraire il n’y a pas de signal car deux métaux de composition différentes sont en contact.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      On peut aussi tester l’efficacité d’un isolant avec les baguettes en utilisant deux conducteurs différents : si l’on pose une pièce de nickel sur une pièce de cuivre il n’y a pas de signal. Si l’on met un papier sec entre les deux pièces, on obtient le signal du cuivre. Il disparait si l’on mouille l’isolant par un liquide conducteur comme l’eau du robinet, ce qui revient à mettre les deux pièces en contact. Le signal subsiste si l’on remplace l’eau par de l’huile.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      On dispose ainsi d’un moyen simple pour tester l’efficacité d’un isolant selon sa composition, son épaisseur, sa texture.
+    </p>
+    <p>
+      On peut aussi suivre avec les baguettes le passage isolant /conducteur appliqué aux poudres.
+    </p>
+    <p>
+      La blende ZnS est un minéral isolant. Pour la récupérer par flottation après broyage, on ajoute en solution du cuivre (II) qui réagit à la surface de ZnS selon la réaction d’activation: <br>
+      ZnS (isolant) + Cu<sup>2+</sup> = CuS (conducteur) + Zn<sup>2+</sup> <br>
+      La blende devient conductrice du fait de la formation de CuS et peut fixer alors le xanthate comme collecteur. <br>
+      Il suffit de déposer sur une pièce de monnaie un peu de poudre de ZnS activé. Les baguettes ne réagissent pas si l’activation est satisfaisante car les compositions chimiques de la couche de CuS et de la pièce sont différentes.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h4>2.1.3.  Contact conducteur - ferrite</h4>
+    <hr class="separateur-xs">
+    <p>
+      La ferrite n’est pas conductrice, mais elle ne se comporte pas en isolant vis-à-vis des métaux comme on l’a déjà mentionné. <br>
+      Lorsque le métal repose sur la face pure N ou S de la ferrite, les baguettes donnent le signal du métal. Par contre s’il repose sur une face mixte, les baguettes ne répondent pas.
+    </p>
+    <p>
+      Si l’on met la ferrite entre une pièce de nickel et une pièce de cuivre, les baguettes donnent le signal du métal occupant la position supérieure. Tout se passe comme si l’aimant se comporte comme un isolant.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h3>2.2.  Interaction entre conducteurs sans contact</h3>
+    <hr class="separateur-l">
+    <h4>2.2.1.  La méthode des témoins</h4>
+    <hr class="separateur-xs">
+    <p>
+      Il a été montré précédemment qu’il était possible d’évaluer des rapports de volumes, de surface, de concentration entre deux échantillons de même nature en déterminant les valeurs de Dm et de Z. <br>
+      Ces déterminations sont basées sur la règle des témoins qui dit qu’il existe une interaction entre deux cibles de même nature que l’homme peut détecter avec les baguettes. <br>
+      La technique des témoins est utilisée par les sourciers depuis très longtemps pour rechercher et identifier les cibles détectées, en particulier l’eau et les minerais, ou détecter des pièces fausse. <br>
+      La mécanique quantique est actuellement évoquée par certains pour expliquer ce phénomène.
+    </p>
+    <p>
+      Pour l’illustrer on peut mentionner l’histoire des pièces d’or: <br>
+      Des amis se trouvent dans une salle avec un sourcier qui montre deux pièces d’or rigoureusement identiques. Il demande à l’un d’entre eux de cacher l’une d’elle quand il sera sorti de la salle et se propose de la retrouver en revenant avec ses baguettes et l’autre pièce d’or. <br>
+      En rentrant, il pose la pièce d’or sur une table et en fait le tour tangentiellement avec ses baguettes. Cette pièce va jouer le rôle de témoin. <br>
+      A un endroit précis les baguettes réagissent: elles indiquent l’axe reliant les deux pièces. Une première direction est ainsi déterminée. Il déplace ensuite la pièce témoin et recommence l’opération. Une deuxième direction est précisée. La pièce cachée est située à l’intersection des deux directions détectées.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      L’image représentant les mineurs de Bohème munis de baguettes date de 1530 (Metallica Agricola). Ils utilisent probablement avec leurs baguettes un morceau de minéral comme témoin : les baguettes réagissent lorsqu’elles sont au voisinage de ce minéral présent dans la paroi ou dans le sol.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h4>2.2.2.  Effets de distance, de poids et de surface entre conducteurs</h4>
+    <hr class="separateur-xs">
+    <p>
+      Il n’y a pas d’interaction entre deux cibles conductrices de nature différente. Comme dans le cas de l’eau, les baguettes restent inactives si les cibles diffèrent en température de plus de 1,5°. <br>
+      Comme dans le cas des ferrites, les valeurs de Dm et de Z caractérisent l’interaction entre deux conducteurs de même nature.
+    </p>
+    <h5 class="surligne">2.2.2.1.  Interaction entre deux boules d’aluminium</h5>
+    <p>
+      Une boule de papier d’aluminium de 2,0cm de diamètre est détectable à 2,0m. Les baguettes se dirigent parallèlement vers la boule. <br>
+      Il y a interaction entre les deux boules identiques quand elles sont à une distance inférieure à Dm=4,0m. Cette interaction est mise en évidence par un changement d’orientation des baguettes entre les deux boules : quand on se déplace entre les deux boules perpendiculairement à l’axe les séparant, les baguettes se dirigent vers l’extérieur des boules avec une absence de signal lorsque l’on se trouve à mi-distance. Dans ce cas Z=0. <br>
+      Quand on se déplace parallèlement à cet axe, les baguettes dévient vers les boules, au niveau de Z. <br>
+      Lorsqu’une boule est plus grosse que l’autre, l’absence de signal se rapproche de la boule la plus petite.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h5 class="surligne">2.2.2.2.  Interaction entre deux feuilles d’aluminium</h5>
+    <p>
+      L’interaction entre deux feuilles rectangulaires d’aluminium distancées de D permet d’établir la relation entre Z, D, et le rapport des surfaces mises en présence, S’étant plus petite que S: <br>
+      on aboutit à Z = ½ D (1-S’/S) <br> Le changement d’orientation des baguettes se rapproche de la feuille la plus petite à mesure que S’ diminue. <br>
+      Pour S’/S=10 et D=10m, on a Z=4,5m. Le changement d’orientation des baguettes se fait à 45cm de S’.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      Il est possible avec les baguettes d’évaluer le rapport de surfaces planes verticales de forme quelconque à condition que la plus petite soit disposée de telle manière que sa projection sur la plus grande soit égale à sa surface.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h5 class="surligne">2.2.2.3.  Influence d’un solide conducteur entre deux feuilles d’aluminium</h5>
+    <p>
+      Si l’on intercale entre deux plaques d’aluminium verticales de même surface une plaque verticale de cuivre de plus grande surface, la liaison entre les deux cibles est interrompue. Elle est rétablie dès que la plaque de cuivre permet une interaction partielle. <br>
+      Le croisement des baguettes entre les deux cibles permet d’avoir une estimation du rapport des surfaces en interaction en présence de cuivre. <br>
+      Le fait de mettre devant la plaque d’aluminium située en A le cuivre P de plus petite surface en position P1, P2 ou P3 revient à diminuer la surface de cette plaque d’aluminium de la surface de P. Il en résulte que le changement d’orientation des baguettes s’effectue en La grandeur Z est donc égal à B . <br>
+      Si P est en position P3 ou P4, le changement de baguettes aura lieu en  et on aura la relation Z’ = Z = B. On peut ainsi en déduire la surface de P.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      Dans le cas où l’objet conducteur P n’est plus plan, la valeur de Z devrait permettre d’évaluer la surface de la projection plane de P sur la feuille d’aluminium.
+    </p>
+
+    <h2>3.  COMPORTEMENT DE L’EAU EN PRESENCE D’UN METAL</h2>
+    <hr class="separateur-xl">
+    <h3>3.1.  Inhibition de la détection des métaux par l’eau</h3>
+    <hr class="separateur-l">
+    <p>
+      Les liquides, comme les ferrites et les solides dépourvus de charges triboélectriques, sont eux aussi susceptibles d’inhiber la réponse des métaux.
+    </p>
+    <p>
+      Il est impossible en effet de détecter en position A une boule d’aluminium si un verre d’eau s’y trouve devant. Par contre on peut détecter l’eau si l’on s’éloigne de la cible d’aluminium. Il en est de même en B si la distance entre le verre d’eau et la boule n’est pas trop grande. Cette distance d’inhibition en B doit dépendre à la fois de la taille de la boule d’aluminium et du volume d’eau.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      Compte tenu de ce résultat on peut se demander comment réagissent les baguettes lorsque l’on place deux boules d’aluminium sur l’axe défini par deux verres d’eau diversement remplis.
+    </p>
+    <ul>
+      <li>
+        Lorsque l’on place les deux verres respectivement remplis d’eau au 1/4 et au 1/2 à une distance de 2,40m le changement d’orientation des baguettes a lieu à 0,6 m du verre le moins rempli (ligne 1 de la figure).
+      </li>
+      <li>
+        Lorsque l’on place deux boules d’aluminium identiques à la même distance, le changement d’orientation a lieu à mi-distance, soit 1,20m (ligne 2).
+      </li>
+      <li>
+        Si l’on place les deux boules d’aluminium entre les verres, on constate que c’est le signal des verres qui fixe le changement à 1,20 m (ligne 3). Si l’on fait l’inverse, c’est l’eau qui l’impose à 0,60m (ligne 4).
+      </li>
+      <li>
+        Si une seule boule (ligne 5) ou l’une des deux (ligne 6) est à l’extérieur de l’espace entre les deux verres, les baguettes restent immobiles entre les deux verres.
+      </li>
+    </ul>
+    <p>
+      On constate que le signal du fer observé avec une casserole vide disparait lorsque l’on y ajoute de l’eau.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <h3>3.2.  Comportement des boites de conserve et de bouteilles encapsulées</h3>
+    <hr class="separateur-l">
+    <p>
+      Une boite de conserve en fer blanc attire l’aimant. Quand elle est pleine de petits pois, on constate que les baguettes ne donnent pas le signal du fer mais se dirigent parallèlement vers la boite. Ceci est dû au fait que la boite de conserve est recouverte vernis isolant. Si on raye la boite, on retrouve le signal du fer. <br>
+      On constate de plus que la distance d’approche limite D passe de 0,9 à 1,2m lorsque la boite contient des salsifis ou des choix de Bruxelles. Quand elle est pleine d’eau, la distance D atteint X m. On n’observe plus de signal quand elle est vide.
+    </p>
+    <p>
+      J’ai observé qu’une bouteille de bière ne donne de signal qu’une fois la capsule métallique enlevée. Par contre les baguettes donnent un signal lorsqu’elles font face à une bouteille de lait fermée par une capsule d’aluminium. Cela tient au fait que la capsule d’aluminium n’est pas conductrice, ses deux faces étant mates.
+    </p>
+    <h3>3.3.  Inhibition de la détection des métaux par une pile </h3>
+    <hr class="separateur-l">
+    <p>
+      On observe les mêmes phénomènes que ceux détectés avec les ferrites. <br>
+      Quand on place sur l’axe d’une pile bâton une pièce d’1€ devant l’un de ses pôles, on observe l’absence de signal latéral du coté de ce pôle, et le signal de la pile au niveau du second pôle. Le signal de la pièce de 1€ n’est pas détecté. La présence de la pile inhibe donc son signal caractéristique.
+    </p>
+
+    <div class="image">
+      <%= image_tag '********' %>
+    </div>
+
+    <p>
+      On observe les mêmes phénomènes qu’avec l’eau ou les ferrites lorsque l’on chevauche l’axe de la pile: le croisement des baguettes est maximal (d=2,5) lorsque la pièce se trouve devant le pôle de la pile et minimal lorsqu’elle se trouve au niveau de l’autre pôle (d= 3,5).
+    </p>
+    <h2>4.  CONCLUSION</h2>
+    <hr class="separateur-xl">
+    <P>
+      L’utilisation des baguettes permet de préciser facilement un grand nombre de données concernant les métaux. Il est ainsi possible de les détecter, de vérifier l’identité de composition, de préciser leur surface, leur réaction à la température. Il est possible de tester l’efficacité d’un isolant, de suivre des transformations de poudres minérales. Cette étude a permis de préciser également au niveau de leur détection, le rôle inhibiteur des ferrites, des solides dépourvus de charges triboélectriques, des liquides et d’une pile.
+    </P>
   </div>
 </div>
 
