@@ -87,8 +87,10 @@
     <h4>1.4.1  Distance de détection</h4>
     <hr class="separateur-xs">
     <p>
-      La détection D d’un échantillon d’aluminium conducteur sous forme de plaque rectangulaire verticale est proportionnelle à sa surface: <br>
-      D = 8,5 10<sup>-3</sup> S - 0,23. <br>
+      La détection D d’un échantillon d’aluminium conducteur sous forme de plaque rectangulaire verticale est proportionnelle à sa surface:
+      <div class="equation">
+        D = 8,5&times10<sup>-3</sup> S - 0,23
+      </div>
       Il est possible à partir de cette relation d’évaluer une surface plane complexe. Les mesures de D seront d’autant plus précises que les surfaces seront plus grandes.
     </p>
     <div class="image">
@@ -131,20 +133,20 @@
       Il est possible de tester l’efficacité d’un isolant avec les baguettes: quand l’isolant se trouve seul au-dessus d’un conducteur, les baguettes détectent le conducteur, à condition qu’il soit potentiellement dépourvu de charges triboélectriques. On détecte une pièce de 1€ si elle est recouverte de papier.
     </p>
     <p>
-      Ce cas est différent de celui du papier l’aluminium où la face mate non conductrice est chimiquement déposée sur la face métallique : les baguettes ne répondent pas lorsqu’elles sont en face de la face mate alors qu’elles le devraient si la partie mate et métallique étaient séparées. <br>
+      Ce cas est différent de celui du papier l’aluminium où la face mate non conductrice est chimiquement déposée sur la face métallique: les baguettes ne répondent pas lorsqu’elles sont en face de la face mate alors qu’elles le devraient si la partie mate et métallique étaient séparées. <br>
       Il en est de même avec un objet en fer qui perd son signal lorsqu’il est peint.
     </p>
     <p>
       Si l’on recouvre une pièce de nickel avec le papier d’aluminium, on détectera le signal de l’aluminium si la pièce est couverte par la partie isolante du papier. Dans le cas contraire il n’y a pas de signal car deux métaux de composition différentes sont en contact.
     </p>
     <div class="image">
-      <%= image_tag 'alu-ni.WebP' %>
+      <%= image_tag 'alu-Ni.WebP' %>
     </div>
     <p>
       On peut aussi tester l’efficacité d’un isolant avec les baguettes en utilisant deux conducteurs différents : si l’on pose une pièce de nickel sur une pièce de cuivre il n’y a pas de signal. Si l’on met un papier sec entre les deux pièces, on obtient le signal du cuivre. Il disparait si l’on mouille l’isolant par un liquide conducteur comme l’eau du robinet, ce qui revient à mettre les deux pièces en contact. Le signal subsiste si l’on remplace l’eau par de l’huile.
     </p>
     <div class="image">
-      <%= image_tag 'cu-ni.WebP' %>
+      <%= image_tag 'Cu-Ni.WebP' %>
     </div>
     <p>
       On dispose ainsi d’un moyen simple pour tester l’efficacité d’un isolant selon sa composition, son épaisseur, sa texture.
@@ -193,7 +195,7 @@
       <%= image_tag 'gold.png' %>
     </div>
     <p>
-      L’image représentant les mineurs de Bohème munis de baguettes date de 1530 (Metallica Agricola). Ils utilisent probablement avec leurs baguettes un morceau de minéral comme témoin : les baguettes réagissent lorsqu’elles sont au voisinage de ce minéral présent dans la paroi ou dans le sol.
+      L’image représentant les mineurs de Bohème munis de baguettes date de 1530 (Metallica Agricola). Ils utilisent probablement avec leurs baguettes un morceau de minéral comme témoin: les baguettes réagissent lorsqu’elles sont au voisinage de ce minéral présent dans la paroi ou dans le sol.
     </p>
     <div class="image">
       <%= image_tag 'boheme.WebP' %>
@@ -216,8 +218,11 @@
     </div>
     <h5 class="surligne">2.2.2.2.  Interaction entre deux feuilles d’aluminium</h5>
     <p>
-      L’interaction entre deux feuilles rectangulaires d’aluminium distancées de D permet d’établir la relation entre Z, D, et le rapport des surfaces mises en présence, S’étant plus petite que S: <br>
-      on aboutit à Z = ½ D (1-S’/S) <br> Le changement d’orientation des baguettes se rapproche de la feuille la plus petite à mesure que S’ diminue. <br>
+      L’interaction entre deux feuilles rectangulaires d’aluminium distancées de D permet d’établir la relation entre Z, D, et le rapport des surfaces mises en présence. Comme S’< S , on aboutit à:
+      <span class="equation">
+        Z = ½ D (1-S’/S)
+      </span>
+      Le changement d’orientation des baguettes se rapproche de la feuille la plus petite à mesure que S’ diminue. <br>
       Pour S’/S=10 et D=10m, on a Z=4,5m. Le changement d’orientation des baguettes se fait à 45cm de S’.
     </p>
     <div class="image">
@@ -233,8 +238,17 @@
     <p>
       Si l’on intercale entre deux plaques d’aluminium verticales de même surface une plaque verticale de cuivre de plus grande surface, la liaison entre les deux cibles est interrompue. Elle est rétablie dès que la plaque de cuivre permet une interaction partielle. <br>
       Le croisement des baguettes entre les deux cibles permet d’avoir une estimation du rapport des surfaces en interaction en présence de cuivre. <br>
-      Le fait de mettre devant la plaque d’aluminium située en A le cuivre P de plus petite surface en position P1, P2 ou P3 revient à diminuer la surface de cette plaque d’aluminium de la surface de P. Il en résulte que le changement d’orientation des baguettes s’effectue en La grandeur Z est donc égal à B . <br>
-      Si P est en position P3 ou P4, le changement de baguettes aura lieu en  et on aura la relation Z’ = Z = B. On peut ainsi en déduire la surface de P.
+      Le fait de mettre devant la plaque d’aluminium située en A le cuivre P de plus petite surface en position P1, P2 ou P3 revient à diminuer la surface de cette plaque d’aluminium de la surface de P. Il en résulte que le changement d’orientation des baguettes s’effectue en &#945. On a alors:
+      <span class="equation">
+        Z = B&#945
+      </span>
+    </p>
+    <p>
+      Si P est en position P3 ou P4, le changement de baguettes aura lieu en &#946 et on aura la relation: <br>
+      <span class="equation">
+       Z’ = Z = B&#946 <br>
+      </span>
+      On peut ainsi en déduire la surface de P.
     </p>
     <div class="image">
       <%= image_tag 'entre2alu.WebP' %>

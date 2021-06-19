@@ -62,8 +62,10 @@
     <hr class="separateur-l">
     <p>
       La détermination du débit est une opération complexe qui fait intervenir deux paramètres: <br>
-      la vitesse de l’eau et la section de la veine d’eau. <br>
-      On a la relation:   Débit = Vitesse x Section. <br>
+      la vitesse de l’eau et la section de la veine d’eau. On a la relation:
+      <span class="equation">
+      Débit = Vitesse &times Section
+      </span>
       Lorsque l’on chevauche à un endroit donné une conduite d’eau dans le sens de l’écoulement, l’écartement des baguettes augmente avec le débit comme l’atteste la figure. Si l’on se met en sens contraire, le croisement des baguettes s’amplifie. C’est d’ailleurs dans ce sens que l’on se place pour effectuer les mesures. <br>
       Il est important de souligner que le signal des baguettes est directement lié à la vitesse de déplacement de l’eau et à la profondeur à laquelle elle se trouve:
       <ul>
@@ -85,7 +87,11 @@
     <h4>1.3.1.  Influence de la vitesse: relation do=f(v)</h4>
     <hr class="separateur-xs">
     <p>
-      J’ai pu déterminer la courbe do=f(v) en caractérisant le croisement des baguettes en fonction du débit d’un robinet relié à un tuyau de diamètre intérieur égal à 1cm situé au niveau du sol. On a la relation v (m/h) = D (m<sup>3</sup>) / S(m<sup>2</sup>) avec S = 7,8 10<sup>-5</sup>m<sup>2</sup>.
+      J’ai pu déterminer la courbe do=f(v) en caractérisant le croisement des baguettes en fonction du débit d’un robinet relié à un tuyau de diamètre intérieur égal à 1cm situé au niveau du sol. On a la relation:
+      <div class="text-center">
+        <strong>v(m/h) = D(m<sup>3</sup>) / S(m<sup>2</sup>)</strong>
+      </div>
+      avec S = 7,8&times10<sup>-5</sup>m<sup>2</sup>.
     </p>
     <p>
       Les baguettes sont graduées en fonction des vitesses, do4 correspondant à une vitesse plus élevée que do6. Chaque graduation est espacée de 4cm. <br>
@@ -103,7 +109,10 @@
     </div>
     <p>
       Il est important de voir que la connaissance précise du débit implique une bonne précision sur la valeur de la section de la veine d’eau. <br>
-      Pour un même débit, les baguettes sont sensibles aux variations de la vitesse liées à un changement de la section de la veine d’eau: elles se croisent d’autant plus que la section est plus petite: on a la relation S x v = S’ x v’ <br>
+      Pour un même débit, les baguettes sont sensibles aux variations de la vitesse liées à un changement de la section de la veine d’eau: elles se croisent d’autant plus que la section est plus petite: on a la relation:
+      <span class="equation">
+        S&timesv = S’&timesv’
+      </span>
       Cette dernière expérience à un intérêt majeur car elle permet de conclure que le croisement des baguettes au-dessus d’une veine d’eau située à la surface du sol est directement lié à la vitesse de l’eau.
     </p>
     <div class="image">
@@ -120,14 +129,17 @@
       J’ai pu déterminer la relation d=f(p) en suivant aux différents étages de mon immeuble la réponse d’une veine d’eau située au sous-sol, à une profondeur de 2m.
     </p>
     <p>
-      On constate que d augmente pratiquement linéairement avec p (en m) selon la relation d = 1/3p + 4/3. La vitesse estimée de la veine d’eau lorsque l’on se trouve à son niveau, c’est à dire à p=0, correspond à la graduation do=4/3. On aboutit donc à la relation d=1/3p + do.
+      On constate que d augmente pratiquement linéairement avec p (en m) selon la relation d = 1/3p + 4/3. La vitesse estimée de la veine d’eau lorsque l’on se trouve à son niveau, c’est à dire à p=0, correspond à la graduation do=4/3. On aboutit donc à la relation:
+      <span class="equation">
+        d = 1/3p + do
+      </span>
     </p>
     <div class="image">
       <%= image_tag 'influence-profondeur.WebP' %>
     </div>
     <p>
       Les baguettes varient d’une graduation lorsque la profondeur varie de 3m. <br>
-      Il est alors possible d’évaluer par exemple le débit d’une conduite d’eau qui est située à 6m de profondeur pour laquelle les baguettes se croisent en d6: on a 6 = 6/3 + do, soit do=4, ce qui correspond, selon la courbe do=f(v), à une vitesse de 11337 m/h. Si le diamètre de la conduite est de 5cm, la valeur de S est égale à 1,9 10<sup>-3</sup> m<sup>2</sup> et le débit est égal à 11337 x 1,9 10<sup>-3</sup> = 21,7m<sup>3</sup>/h. Il passe à 5,42m<sup>3</sup>/h si le diamètre de la conduite est divisé par 2, soit 4 fois moins.
+      Il est alors possible d’évaluer par exemple le débit d’une conduite d’eau qui est située à 6m de profondeur pour laquelle les baguettes se croisent en d6: on a 6 = 6/3 + do, soit do=4, ce qui correspond, selon la courbe do=f(v), à une vitesse de 11337m/h. Si le diamètre de la conduite est de 5cm, la valeur de S est égale à 1,9&times10<sup>-3</sup> m<sup>2</sup> et le débit est égal à 11337 x 1,96&times10<sup>-3</sup> = 21,7m<sup>3</sup>/h. Il passe à 5,42m<sup>3</sup>/h si le diamètre de la conduite est divisé par 2, soit 4 fois moins.
     </p>
     <br>
     <h3>1.4.  Parcours de l'eau</h3>
@@ -312,15 +324,21 @@
     </p>
     <p>
       Si Cx > Co, ce changement se rapproche du verre référent contenant la solution la plus diluée Co. <br>
-      Z est compté positivement et obéit à la relation Z = 0,5Dm (1-Co/Cx).
+      Z est compté positivement et obéit à la relation
+      <span class="equation">
+        Z = 0,5Dm (1-Co/Cx)
+      </span>
     </p>
     <p>
-      SI Cx < Co le changement d’orientation des baguettes se déplace vers l’autre verre. <br>
-      Z est alors négatif: Z = -0,5Dm (1-Cx/Co).
+      Si Cx < Co le changement d’orientation des baguettes se déplace vers l’autre verre. <br>
+      Z est alors négatif:
+      <span class="equation">
+        Z = -0,5Dm (1-Cx/Co)
+      </span>
     </p>
     <p>
       Lorsque la concentration Cx est élevée, la mesure devient difficile: <br>
-      si V = V’ et Cx / Co = 10, le calcul indique que Z = 0,45Dm. <br>
+      si V = V’ et Cx/Co = 10, le calcul indique que Z = 0,45Dm. <br>
       Si Dm = 10m, on se trouve alors à 0,05Dm soit à 50cm du verre référent, ce qui devient limite pour une mesure précise. <br>
       On dilue alors la solution à analyser ou on la compare à un référent plus concentré.
     </p>
@@ -328,7 +346,7 @@
       <%= image_tag 'concentration.png' %>
     </div>
     <p>
-      Il est important de signaler qu’il n’existe pas d’interaction entre un verre d’eau pure et un verre contenant NaCl 8,5 10<sup>-5</sup>M. L’utilisation de l’eau pure comme référent est donc impossible.
+      Il est important de signaler qu’il n’existe pas d’interaction entre un verre d’eau pure et un verre contenant NaCl 8,5&times10<sup>-5</sup>M. L’utilisation de l’eau pure comme référent est donc impossible.
     </p>
     <p>
       Les mesures se faisant debout, il est important de pouvoir disposer de la distance maximale surtout lorsque l’on augmente sensiblement la concentration. On a donc intérêt à opérer sur des volumes importants pour accroitre la valeur de Dm.
@@ -424,7 +442,7 @@
       Les équilibres mis en jeu sont les suivants:
     </p>
     <div class="image">
-      <%= image_tag 'equations.png' %>
+      <%= image_tag 'equations.WebP' %>
     </div>
     <p>
       <strong>Titrages acide base</strong> <br>

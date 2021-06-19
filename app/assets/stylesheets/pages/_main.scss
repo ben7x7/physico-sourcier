@@ -56,3 +56,12 @@ hr.separateur-xs {
 sup, sub {
   z-index: -1;
 }
+
+span.equation {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem 0;
+  font-size: larger;
+  font-weight: 600;
+}
