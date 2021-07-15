@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'magnetisme', to: 'pages#magnetisme', as: :magnetisme
   get 'metaux', to: 'pages#metaux', as: :metaux
   get 'cristaux', to: 'pages#cristaux', as: :cristaux
-  get 'vegetale', to: 'pages#vegetale', as: :vegetale
+  get 'biologie', to: 'pages#biologie', as: :biologie
 
   get 'kookies', to: 'pages#kookies', as: :kookies
   get 'mentions', to: 'pages#mentions', as: :mentions

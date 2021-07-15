@@ -11,6 +11,8 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto">
+      <%= link_to 'INFO', root_path(anchor: 'info') ,  class: "nav-link" %>
+      <%= link_to 'CONTACT', root_path(anchor: 'contact') ,  class: "nav-link" %>
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         EXPERIENCES
       </a>
@@ -21,7 +23,7 @@
         <%= link_to "MAGNETISME", magnetisme_path, class: 'nav-link dropdown-item' %>
         <%= link_to "METAUX", metaux_path, class: 'nav-link dropdown-item' %>
         <%= link_to "CRISTAUX", cristaux_path, class: 'nav-link dropdown-item' %>
-        <%= link_to "BIOLOGIE", vegetale_path, class: 'nav-link dropdown-item' %>
+        <%= link_to "BIOLOGIE", biologie_path, class: 'nav-link dropdown-item' %>
       </div>
     </div>
   </div>

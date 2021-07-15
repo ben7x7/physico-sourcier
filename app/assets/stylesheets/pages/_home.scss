@@ -1,3 +1,154 @@
-.main-title {
-  padding: 50px 0;
+.home-top {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 20%), image-url('front.WebP');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  padding-top: 80px;
+}
+
+.home-down {
+  background-color: $dark-gray;
+}
+.home-title {
+  color: white;
+  text-transform: none;
+}
+
+.home-title h1 {
+  font-weight: 700;
+}
+
+span.bull {
+  color: $orange;
+}
+
+.header-text {
+  padding: 20px 15px;
+  color: $light-gray;
+}
+
+.experiences {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a.logo-links:hover {
+  text-decoration: none;
+}
+
+.experience-card {
+  display: flex;
+  border-radius: 5px;
+  height: 80px;
+  width: 200px;
+  margin: 5px 5px;
+}
+
+.card-eau {
+  border: solid 3px $blue;
+}
+.card-electricite {
+  border: solid 3px $red;
+}
+.card-magnetisme {
+  border: solid 3px $cream;
+}
+.card-ondes {
+  border: solid 3px $purple;
+}
+.card-cristals {
+  border: solid 3px $cristal;
+}
+.card-metaux {
+  border: solid 3px $yellow;
+}
+.card-biologie {
+  border: solid 3px $green;
+}
+
+.experience-icon {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-eau {
+  background-color: $blue;
+}
+.bg-electricite {
+  background-color: $red;
+}
+.bg-magnetisme {
+  background-color: $cream;
+}
+.bg-ondes {
+  background-color: $purple;
+}
+.bg-cristals {
+  background-color: $cristal;
+}
+.bg-metaux {
+  background-color: $yellow;
+}
+.bg-biologie {
+  background-color: $green;
+}
+
+.experience-text {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.expe {
+  color: $light-gray;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+#info {
+  max-width: 850px;
+  text-align: justify;
+  margin: 50px auto;
+  padding: 20px 30px;
+  background-color: white;
+}
+
+#contact {
+  background-color: $dark-gray;
+  background-image: url('https://res.cloudinary.com/bessiere/image/upload/v1595606967/Background/map-image.png');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.contact-header {
+  padding-top: 100px;
+  color: $light-gray;
+}
+
+.contact-body {
+  color: $light-gray;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#mail-contact {
+  color: $light-gray;
 }
