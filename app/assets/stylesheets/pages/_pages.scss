@@ -36,6 +36,11 @@ img {
   margin-right: .5rem;
 }
 
+// *******************************  La METHODE  **********************************
+#methode {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('methode.WebP');
+}
+
 // *******************************  L'EAU  **********************************
 #eau {
   background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('eau.WebP');

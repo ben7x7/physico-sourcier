@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
 
+  get 'methode', to: 'pages#methode', as: :methode
   get 'eau', to: 'pages#eau', as: :eau
   get 'electricite', to: 'pages#electricite', as: :electricite
   get 'ondes', to: 'pages#ondes', as: :ondes
