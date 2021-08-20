@@ -1,11 +1,12 @@
 .home-top {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 20%), image-url('front.WebP');
+  background-image: image-url('amateur.WebP');
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
-  padding-top: 80px;
+  height: 700px;
+  padding-top: 70px;
+  position: relative;
 }
 
 .home-down {
@@ -15,14 +16,24 @@
 .home-title {
   color: white;
   text-transform: none;
+  padding: 45px 30px;
+  width: 700px;
+  height: 205px;
+  position: relative;
 }
 
-.home-title h1 {
-  font-weight: 700;
+.home-title > h1 {
+  font-size: 32px !important;
 }
 
-span.bull {
-  color: $orange;
+.filter {
+  background-color: black;
+  opacity: 0.6;
+  position: absolute;
+  width: 700px;
+  height: 205px;
+  padding: 45px 30px;
+  border-radius: 5px;
 }
 
 .header-text {
@@ -63,6 +74,9 @@ a.logo-links:hover {
   margin-bottom: 5px;
 }
 
+.bg-methode {
+  background-color: $orange;
+}
 .bg-eau {
   background-color: $blue;
 }

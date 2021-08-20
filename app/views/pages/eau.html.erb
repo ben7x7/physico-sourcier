@@ -3,206 +3,9 @@
 </div>
 <div class="section">
   <div class="sub-section">
-    <h2>1.  RECHERCHE DE VEINES D'EAU</h2>
+    <h2>1.  CARACTERISATION DES LIQUIDES</h2>
     <hr class="separateur-xl">
-    <p>
-      La détection des veines d’eau avec les baguettes de sourcier existe depuis la nuit des temps. L’implantation sur des veines d’eau des menhirs au néolithique et des premières églises romanes au début du Xè siècle est l’indice que nos lointains ancêtres avaient déjà une bonne connaissance du sous-sol aquifère. <br>
-      Pourtant certaines critiques, parfois virulentes, mettent en doute la technique et ses résultats. Des tentatives d‘explication ont été avancées par des scientifiques faisant intervenir l’influence du champ magnétique, les conventions mentales, plus récemment la mécanique quantique. <br>
-      Je me borne ici à donner des indications sur la méthode que j’ai utilisée. Il est important de souligner que les signaux observés dépendent de l’opérateur: par exemple certains verront leurs baguettes en L s’écarter sur une veine d’eau alors que d’autres les verront se croiser, voire se déplacer vers la droite ou la gauche.
-    </p>
-    <br>
-    <h3>1.1.  Détection</h3>
-    <hr class="separateur-l">
-    <p>
-      La pratique demande une forte concentration. Toute gêne extérieure comme le bruit, le mouvement, la présence d’une personne, peut compromettre les résultats. Il est donc conseillé d’opérer seul et détendu. <br>
-      Les baguettes en L remplacent souvent les baguettes de coudrier moins commodes à utiliser dans la mesure où elles demandent un effort de torsion relativement important. <br>
-      La figure suivante précise les caractéristiques des baguettes utilisées ainsi que la démarche pour localiser une petite veine d’eau.
-    </p>
-    <div class="image double ">
-      <%= image_tag 'sourcier.png' %>
-      <%= image_tag 'detection.png' %>
-    </div>
-    <p>
-      La vitesse de déplacement de l’opérateur joue un rôle essentiel: dans cette première étape, la marche se fait à la vitesse habituelle. Il est important de préciser que les baguettes ne détectent pas l’eau immobile.
-    </p>
-    <br>
-    <h3>1.2.  Profondeur</h3>
-    <hr class="separateur-l">
-    <p>
-      La figure suivante précise comment déterminer la profondeur d’une petite veine d’eau. Contrairement au cas précédent, la détermination implique une marche lente vers la veine d’eau pour la détection des trois signaux.
-    </p>
-    <div class="image">
-      <%= image_tag 'profondeur.png' %>
-    </div>
-    <p>
-      Lorsque la veine d’eau devient plus large et plus épaisse, on passe de trois à cinq puis à sept signaux parallèles à la veine d’eau. Le signal des baguettes change alternativement au cours de la progression perpendiculaire.
-    </p>
-    <div class="image">
-      <%= image_tag 'mesure.png' %>
-    </div>
-    <p>
-      Quand la veine d’eau est étroite, il est impossible, debout, de déterminer sa largeur avec précision. Pour y parvenir il faut se baisser, se placer parallèlement à la veine d‘eau et déplacer latéralement la baguette jusqu’à ce qu’elle dévie.
-    </p>
-    <div class="image">
-      <%= image_tag 'etroite.WebP' %>
-    </div>
-    <p>
-      Dans certains cas, il est impossible d’appliquer les règles précédentes pour déterminer la profondeur de la veine d’eau lorsqu’elle se trouve à un endroit dont la surface est limitée par un obstacle comme des murs. Pour résoudre le problème on utilise la méthode « Point Depth » proposée par le Major R. Creyke. <br>
-      Elle consiste à fixer une tige de mu-métal (alliage nickel fer) sur la verticale de la veine d’eau qui a été localisée. On remarque alors que les quatre parallèles qui déterminent la largeur et la profondeur de la veine sont remplacées par deux cercles concentriques dont les rayons mesurent ces grandeurs quel que soit l’endroit où l’on se trouve.
-    </p>
-    <div class="image">
-      <%= image_tag 'creyke.png' %>
-    </div>
-    <p>
-      Ne disposant pas de mu-métal, je l’ai remplacé par deux ferrites superposées sur leurs faces Nord ou Sud et placées sur une surface métallique qui assure l’horizontalité, comme une boite de cachou. J’ai observé les cercles concentriques attendus. Il est important de signaler que si les ferrites sont sur leur faces mixtes, les baguettes ne donnent aucun signal. <br>
-      On voit sur la figure de droite que la détermination de la profondeur est possible seulement si l’on se place en haut à droite du terrain.
-    </p>
-    <br>
-    <h3>1.3.  Débit</h3>
-    <hr class="separateur-l">
-    <p>
-      La détermination du débit est une opération complexe qui fait intervenir deux paramètres: <br>
-      la vitesse de l’eau et la section de la veine d’eau. On a la relation:
-      <span class="equation">
-      Débit = Vitesse &times Section
-      </span>
-      Lorsque l’on chevauche à un endroit donné une conduite d’eau dans le sens de l’écoulement, l’écartement des baguettes augmente avec le débit comme l’atteste la figure. Si l’on se met en sens contraire, le croisement des baguettes s’amplifie. C’est d’ailleurs dans ce sens que l’on se place pour effectuer les mesures. <br>
-      Il est important de souligner que le signal des baguettes est directement lié à la vitesse de déplacement de l’eau et à la profondeur à laquelle elle se trouve:
-      <ul>
-        <li>
-          Pour un même débit, à une profondeur donnée, les baguettes se croiseront d’autant plus que la section de la veine d’eau est plus petite.
-        </li>
-        <li>
-          Pour une même vitesse, ou un même débit, le croisement des baguettes diminue avec la profondeur.
-        </li>
-      </ul>
-    </p>
-    <div class="image">
-      <%= image_tag 'comparaison.jpg' %>
-    </div>
-    <p>
-      Pour déterminer ce signal, il est nécessaire d’une part de graduer les baguettes en fonction de la vitesse de l’eau au niveau du sol, soit do=f(v), et d’autre part de connaitre la réponse des baguettes pour une vitesse donnée en fonction de la profondeur de la veine d’eau, soit d=f(p).
-    </p>
-    <br>
-    <h4>1.3.1.  Influence de la vitesse: relation do=f(v)</h4>
-    <hr class="separateur-xs">
-    <p>
-      J’ai pu déterminer la courbe do=f(v) en caractérisant le croisement des baguettes en fonction du débit d’un robinet relié à un tuyau de diamètre intérieur égal à 1cm situé au niveau du sol. On a la relation:
-      <div class="text-center">
-        v(m/h) = D(m<sup>3</sup>) / S(m<sup>2</sup>) avec S = 7,8&times10<sup>-5</sup>m<sup>2</sup>.
-      </div>
-    </p>
-    <p>
-      Les baguettes sont graduées en fonction des vitesses, do4 correspondant à une vitesse plus élevée que do6. Chaque graduation est espacée de 4cm. <br>
-      Les résultats sont regroupés dans le tableau ci-dessous.
-    </p>
-    <div class="image">
-      <%= image_tag 'tab-vitesse.WebP' %>
-    </div>
-    <p>
-      On constate que le croisement des baguettes est plus sensible pour les faibles vitesses. <br>
-      Il suffit donc de connaitre la section de la veine d’eau en m<sup>2</sup> et le signal do de la baguette pour avoir le débit d’une veine d’eau placée au niveau du sol.
-    </p>
-    <div class="image">
-      <%= image_tag 'graph-vitesse.WebP' %>
-    </div>
-    <p>
-      Il est important de voir que la connaissance précise du débit implique une bonne précision sur la valeur de la section de la veine d’eau. <br>
-      Pour un même débit, les baguettes sont sensibles aux variations de la vitesse liées à un changement de la section de la veine d’eau: elles se croisent d’autant plus que la section est plus petite: on a la relation:
-      <span class="equation">
-        S&timesv = S’&timesv’
-      </span>
-      Cette dernière expérience à un intérêt majeur car elle permet de conclure que le croisement des baguettes au-dessus d’une veine d’eau située à la surface du sol est directement lié à la vitesse de l’eau.
-    </p>
-    <div class="image">
-      <%= image_tag 'veine.WebP' %>
-    </div>
-    <p>
-      Il est indiqué dans la littérature que les débits des veines d’eau souterraines sont inférieurs à 3m<sup>3</sup>/h quand ils sont faibles, entre 3 et 9 quand ils sont moyens et entre 9 et 30 quand ils sont forts. <br>
-      Si le débit lent d’une veine d’eau dans une conduite de 10cm de diamètre au niveau du sol est de 1,5m<sup>3</sup>/h, la vitesse de l’eau est égale à 190m/h. Les baguettes se croisent entre do6 et do5. Pour un débit plus rapide, voisin de 9m<sup>3</sup>/h, la vitesse est proche de 1200m<sup>3</sup>/h. Les baguettes se croisent alors en do4.
-    </p>
-    <br>
-    <h4>1.3.2.  Influence de la profondeur: relation d=f(p)</h4>
-    <hr class="separateur-xs">
-    <p>
-      J’ai pu déterminer la relation d=f(p) en suivant aux différents étages de mon immeuble la réponse d’une veine d’eau située au sous-sol, à une profondeur de 2m.
-    </p>
-    <p>
-      On constate que d augmente pratiquement linéairement avec p (en m) selon la relation d = 1/3p + 4/3. La vitesse estimée de la veine d’eau lorsque l’on se trouve à son niveau, c’est à dire à p=0, correspond à la graduation do=4/3. On aboutit donc à la relation:
-      <span class="equation">
-        d = 1/3p + do
-      </span>
-    </p>
-    <div class="image">
-      <%= image_tag 'influence-profondeur.WebP' %>
-    </div>
-    <p>
-      Les baguettes varient d’une graduation lorsque la profondeur varie de 3m. <br>
-      Il est alors possible d’évaluer par exemple le débit d’une conduite d’eau qui est située à 6m de profondeur pour laquelle les baguettes se croisent en d6: on a 6 = 6/3 + do, soit do=4, ce qui correspond, selon la courbe do=f(v), à une vitesse de 11337m/h. Si le diamètre de la conduite est de 5cm, la valeur de S est égale à 1,9&times10<sup>-3</sup> m<sup>2</sup> et le débit est égal à 11337 x 1,96&times10<sup>-3</sup> = 21,7m<sup>3</sup>/h. Il passe à 5,42m<sup>3</sup>/h si le diamètre de la conduite est divisé par 2, soit 4 fois moins.
-    </p>
-    <br>
-    <h3>1.4.  Parcours de l'eau</h3>
-    <hr class="separateur-l">
-    <p>
-      Une fois que la veine d’eau a été détectée, il est facile de suivre son parcours en la chevauchant: les baguettes s’écartent lorsque l’on est dans le sens de l’eau et se croisent dans le sens contraire. Elles reviennent à leur position de repos lorsque l’on sort de la veine d’eau.
-    </p>
-    <div class="image">
-      <%= image_tag 'chemin.png' %>
-    </div>
-    <h3>1.5.  Eau montante et eau descendante</h3>
-    <hr class="separateur-l">
-    <p>
-      Les baguettes permettent de préciser le sens dans lequel coule l’eau dans une conduite verticale. <br>
-      Lorsque l’eau descend et que l’on tourne tangentiellement autour de la conduite à une distance d, les baguettes s’approchent de la conduite. Si l’on s‘avance face à la conduite les baguettes se croisent. On observe les signaux inversés lorsque l’eau monte. <br>
-      La distance d représentée sur la figure augmente avec le débit de la conduite. <br>
-      Cette technique sera utilisée pour suivre la montée de la sève dans les arbres.
-    </p>
-    <div class="image">
-      <%= image_tag 'upanddown.WebP' %>
-    </div>
-    <br>
-    <h3>1.6.  Méthode des témoins</h3>
-    <hr class="separateur-l">
-    <p>
-      Pour chercher de l’eau à un endroit donné on prend une petite bouteille d’eau qui sert de témoin. On la pose à terre et on en fait le tour tangentiellement avec les baguettes. <br>
-      A un moment, les baguettes tournent parallèlement vers une direction que l’on note. On marche alors dans cette direction, et à un moment les baguettes se dirigent dans le sens de la veine d’eau qui est ainsi détectée. On peut déplacer le témoin et refaire une autre détermination pour confirmer la première ou détecter d’autres veines d’eau éventuellement présentes localement. <br>
-      Il n’y a pas de signal entre la bouteille d’eau et une ligne téléphonique qui fait également dévier les baguettes.
-    </p>
-    <p>
-      La sensibilité de la méthode est directement liée au volume d’eau dans la bouteille et à la vitesse d’écoulement de la veine d’eau recherchée. Avec une bouteille d’un quart de litre et une valeur moyenne de débit (d4) on a pu détecter une veine d’eau qui était située à 15m de la bouteille témoin.
-    </p>
-    <div class="image">
-      <%= image_tag 'temoins.png' %>
-    </div>
-    <br>
-    <h2>2.  L’EAU ET LES EGLISES</h2>
-    <hr class="separateur-xl">
-    <p>
-      De nombreux lieux de culte anciens sont construits par rapport aux veines d’eau souterraines qui apportent au lieu l’information de l’eau, source de vie, moyen de purification et centre de régénérescence. <br>
-      Les constructeurs d’église romanes avaient une bonne connaissance du sous-sol aquifère du site choisi: souvent l’église romane est parcourue par une grande veine d’eau dirigée vers l’Est dans l’axe de la nef et par plusieurs veines perpendiculaires comme l’attestent par exemple les églises de Montfermy et de Locquénolé. Il est clair que la nature n’est pas seule responsable de ces réseaux souterrains et que certains canaux ont été creusés de la main de l’homme.
-    </p>
-    <div class="image">
-      <%= image_tag 'eglises.WebP' %>
-    </div>
-    <p>
-      J’ai confirmé avec les baguettes qu’il en était de même à l’Église Saint Pierre d’Avon qui date des années 1100.
-    </p>
-    <div class="image">
-      <%= image_tag 'avon.WebP' %>
-    </div>
-      On retrouve principalement dans la partie primitive de l’Église les veines d’eau qui dessinent la croix. La veine de la nef rigoureusement dirigée à l’Est est à 6m de profondeur alors que deux des trois veines rigoureusement perpendiculaires le sont à 5m, la dernière, centrale, étant à 2m. Il est probable que cette dernière résulte du travail de l’homme, comme les huit canalisations qui se croisent au centre du chœur de l’église primitive. On retrouve la même disposition à la cathédrale de Chartres où nous avons confirmé que quatorze canalisations se rencontraient effectivement sous le Chœur.
-    </p>
-    <div class="image">
-      <%= image_tag 'choeur.WebP' %>
-    </div>
-    <p>
-      Il ressort de cette étude que la symbolique souterraine de l’eau apparait dans les fondations de l’Église Saint-Pierre d’Avon comme à Loquénolé et à Montfermy. <br>
-      La connaissance préalable du parcours de l’eau par les sourciers de l’époque a été le facteur déterminant pour décider de l’implantation de ces églises à un endroit donné.
-    </p>
-    <br>
-    <h2>3.  CARACTERISATION DES LIQUIDES</h2>
-    <hr class="separateur-xl">
-    <h3>3.1.  Détection d’un volume d’eau pure</h3>
+    <h3>1.1.  Détection d’un volume d’eau pure</h3>
     <hr class="separateur-l">
     <p>
       Lorsque l’on se déplace vers un verre cylindrique rempli d’un volume V d’eau déposé sur le sol, les baguettes se déplacent vers le verre à partir d’une certaine distance limite D qui varie avec V et avec la température. A 22,0°, on a la relation: <br>
@@ -216,7 +19,7 @@
       En tournant autour du verre rempli de 200ml d’eau, il est possible avec les baguettes de tracer un cercle de 5,2m de rayon. On peut aussi tracer une série de cercles concentriques en modifiant le volume d’eau dans le verre.
     </p>
     <br>
-    <h3>3.2.  Influence du contenant</h3>
+    <h3>1.2.  Influence du contenant</h3>
     <hr class="separateur-l">
     <p>
       Les réponses varient avec la symétrie du contenant:
@@ -236,7 +39,7 @@
       <%= image_tag 'contenant.WebP' %>
     </div>
     <br>
-    <h3>3.3.  Influence de la position de l’opérateur</h3>
+    <h3>1.3.  Influence de la position de l’opérateur</h3>
     <hr class="separateur-l">
     <p>
       Il est important de savoir dans les expériences précédentes si la position du verre par rapport à l’opérateur a une importance ou non sur les valeurs de D. Cela revient à identifier la partie du corps de l’opérateur qui joue le rôle de récepteur, sachant que le verre émet un rayonnement sur la distance D limite. <br>
@@ -255,7 +58,7 @@
       Pour conclure, ce sont donc les mains de l’opérateur qui jouent le rôle de récepteur des signaux émis par les corps étudiés au niveau de ses mains. Il faut donc en tenir compte quand on veut préciser les valeurs de D correspondant à des objets proches de l’opérateur.
     </p>
     <br>
-    <h3>3.4.  Influence de la température</h3>
+    <h3>1.4.  Influence de la température</h3>
     <hr class="separateur-l">
     <p>
       On opère sur un volume de 100ml: entre 8 et 30°, D croit linéairement avec la température. Pour les plus faibles températures on a intérêt à utiliser un volume V sensiblement plus grand que 100ml pour avoir une meilleure précision.
@@ -267,7 +70,7 @@
       On peut donc évaluer la température avec les baguettes à partir de la mesure de D si l’on dispose d’une distance suffisante.
      </p>
      <br>
-    <h3>3.5.  Interaction entre deux verres d’eau</h3>
+    <h3>1.5.  Interaction entre deux verres d’eau</h3>
     <hr class="separateur-l">
     <p>
       Elle apparait lorsque les baguettes s’orientent au niveau de chaque verre en sens inverse de ce qui est observé avec un seul verre. <br>
@@ -283,7 +86,7 @@
       Il est donc possible avec les baguettes d’évaluer le rapport de volumes de liquide identiques.
     </p>
     <br>
-    <h3>3.6.  Influence des surfaces</h3>
+    <h3>1.6.  Influence des surfaces</h3>
     <hr class="separateur-l">
     <p>
       La surface des contenants pour un même poids d’eau joue un rôle déterminant au niveau des valeurs de Dm et de Z. <br>
@@ -298,13 +101,13 @@
       Il faut signaler que la détermination des surfaces à partir de la mesure de Z est souvent plus difficile que celle réalisée sur chaque surface isolée, en particulier lorsque leur rapport est élevé.
      </p>
      <br>
-    <h2>4.  CARACTERISATION DES SOLUTIONS</h2>
+    <h2>2.  CARACTERISATION DES SOLUTIONS</h2>
     <hr class="separateur-xl">
     <p>
       L’introduction d’un soluté dans un liquide modifie souvent la réponse des baguettes. Les cas des solutions aqueuses de NaCl puis des liquides alimentaires sont examinés.
     </p>
     <br>
-    <h3>4.1.  Solution de NaCl: mesure de D</h3>
+    <h3>2.1.  Solution de NaCl: mesure de D</h3>
     <hr class="separateur-l">
     <p>
       On veut caractériser la concentration des solutions par la mesure de D pour un  volume V = 100ml. On prépare une solution de NaCl à la concentration 0,17M en introduisant 5g de NaCl (PM = 58,5g) dans 1 litre. La valeur de D correspondant à cette concentration élevée est non mesurable car trop petite. Les essais réalisés après dilution à 20,7° sur le même volume de 100ml montrent que la distance D diminue à mesure que la conductivité de la solution augmente. Le remplacement de NaCl par HCl à la même concentration entraine des variations de D plus importante, la conductibilité &#955<sub>H<sup>+</sup></sub> étant supérieure à &#955<sub>Na<sup>+</sup></sub>.
@@ -316,7 +119,7 @@
       Il faut remarquer que la mesure réalisée en absence de NaCl porte en réalité sur l’eau du robinet qui contient un certain nombre d’ions. Il serait intéressant de comparer sa réponse avec celle de l’eau distillée.
     </p>
     <br>
-    <h3>4.2.  Une solution de concentration connue Co est utilisée comme réfèrent</h3>
+    <h3>2.2.  Une solution de concentration connue Co est utilisée comme réfèrent</h3>
     <hr class="separateur-l">
     <p>
       Lorsque la concentration Co est la même dans les deux verres, le changement d’orientation des baguettes apparait à mi-distance des verres: Z=0.
@@ -351,9 +154,9 @@
       Les mesures se faisant debout, il est important de pouvoir disposer de la distance maximale surtout lorsque l’on augmente sensiblement la concentration. On a donc intérêt à opérer sur des volumes importants pour accroitre la valeur de Dm.
     </p>
     <br>
-    <h3>4.3.  Liquides alimentaires</h3>
+    <h3>2.3.  Liquides alimentaires</h3>
     <hr class="separateur-l">
-    <h4>4.3.1.  Comportement de l'eau sucré</h4>
+    <h4>2.3.1.  Comportement de l'eau sucré</h4>
     <hr class="separateur-xs">
     <p>
       On prépare une solution de sucre en mettant 1 morceau dans 500ml d’eau. On  ajoute de 0,5 à 3ml de cette solution dans un volume V=100ml. <br>
@@ -368,7 +171,7 @@
       Il n’est pas exclu que la valeur de D varie avec la nature du sucre analysé. On a les mêmes résultats avec le Candérel: la valeur de D relative à un volume de 100ml d’eau passe successivement de 3,0 à 1,1 puis à 0,5m après ajout d’un puis de deux comprimés.
     </p>
     <br>
-    <h4>4.3.2.  Eau + café, eau + thé</h4>
+    <h4>2.3.2.  Eau + café, eau + thé</h4>
     <hr class="separateur-xs">
     <p>
       Les baguettes ne donnent aucun signal devant une tasse de thé ou de café, froide ou chaude. On constate que les solutions sont troubles. On retrouvera ce comportement dans le cas de l’eau légèrement savonneuse.
@@ -377,7 +180,7 @@
       Comme nous le verrons plus loin l’eau peut inhiber le signal d’une pièce de monnaie. Par contre je constate que la tasse de thé ou de café ne l’inhibe pas.
     </p>
     <br>
-    <h4>4.3.3.  Essais divers</h4>
+    <h4>2.3.3.  Essais divers</h4>
     <hr class="separateur-xs">
     <p>
       Les essais ont été réalisés sur un volume V=100 ml pour les différents liquides à 21,7°.
@@ -406,7 +209,7 @@
       </ul>
     </p>
     <br>
-    <h4>4.3.4.  Influence de la température sur les mesures de D</h4>
+    <h4>2.3.4.  Influence de la température sur les mesures de D</h4>
     <hr class="separateur-xs">
     <p>
       La caractérisation d’un liquide par sa valeur D implique un contrôle strict de la température. <br>
@@ -415,7 +218,7 @@
       Il est donc possible avec les baguettes de mettre en évidence de faibles différences de température entre deux liquides de même composition.
     </p>
     <br>
-    <h4>4.3.5.  Suivi de réactions chimiques</h4>
+    <h4>2.3.5.  Suivi de réactions chimiques</h4>
     <hr class="separateur-xs">
     <p>
       L’étude précédente menée sur les solutions de KCl montrent que les baguettes sont capables de détecter la présence des ions en solution, jouant ainsi le rôle d’un conductimètre. <br>
@@ -466,7 +269,7 @@
       Sur le plan de la Chimie, il sera intéressant d’examiner le comportement de solvants présentant, par exemple, des analogies au niveau des conductivités, des viscosités, des constantes diélectriques, et de suivre leurs évolutions au cours de réactions chimiques ayant un intérêt industriel (titrages, extraction liquide-liquide).
     </p>
     <br>
-    <h2>5.  CONCLUSION</h2>
+    <h2>3.  CONCLUSION</h2>
     <hr class="separateur-xl">
     <P>
       Il ressort de cette étude sur les liquides que l’utilisation des baguettes permet de caractériser des milieux les plus divers, en évaluant les volumes engagés, les concentrations, les températures, et de suivre éventuellement leurs évolutions au cours d’un titrage ou d’un processus chimique. <br>

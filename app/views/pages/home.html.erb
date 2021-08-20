@@ -1,13 +1,8 @@
 <div class="section home">
   <div class="home-top">
-    <div class="home-title">
-      <h1>SOURCIER<span class="bull">&bull;</span>PHYSICO<span class="bull">&bull;</span>CHIMISTE</h1>
-      <div class="home-text text-center">
-        <h5>
-          vous présente des expériences réalisées avec <br>
-          des baguettes de sourcier
-        </h5>
-      </div>
+    <div class="filter"></div>
+    <div class="home-title text-center">
+      <h1>UN SOURCIER AMATEUR FACE A <hr>LA PHYSIQUE, LA CHIMIE & LA BIOLOGIE</h1>
     </div>
   </div>
   <div class="home-down">
@@ -15,6 +10,16 @@
       <p>Sélectionner une expérience pour en savoir plus</p>
     </div>
     <div class="experiences">
+      <%= link_to methode_path, class: 'logo-links' do %>
+        <div class="experience-card">
+          <div class="experience-icon bg-methode">
+            <%= image_tag 'ikn-methode.WebP' %>
+          </div>
+          <div class="experience-text">
+            <h4 class="expe">methode</h4>
+          </div>
+        </div>
+      <% end %>
       <%= link_to eau_path, class: 'logo-links' do %>
         <div class="experience-card">
           <div class="experience-icon bg-eau">
@@ -144,7 +149,7 @@
       J'ai alors effectué de premiers essais sur des sites connus puis inconnus et des bons résultats que j'obtenais, j'en ai déduit que je faisais partie, selon Yves Rocard, des 80% de personnes capables de détecter et de suivre les eaux souterraines, à condition de bien s’y préparer.
     </p>
     <p>
-      Désormais davantage disponible, j'ai mis à profit mon expérience dans ce domaine pour suivre l’eau et détecter des structures disparues autour du Château de Fontainebleau.
+      Désormais davantage disponible, j'ai mis à profit mon expérience dans ce domaine pour suivre dans un premier temps l’eau et détecter des structures disparues autour du Château de Fontainebleau, puis d'examiner les possibilités qu'offrent les baguettes dans le domaine de la physique, la chimie et la biologie.
     </p>
   </div>
 </div>

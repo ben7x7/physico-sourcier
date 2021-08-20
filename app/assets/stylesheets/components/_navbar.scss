@@ -45,32 +45,35 @@ a.nav-link.dropdown-item:hover {
   color: white;
   font-weight: 700;
 }
-
 a.nav-link.dropdown-item:hover:nth-child(1) {
-  background-color: $blue;
+  background-color: $orange;
 }
 
 a.nav-link.dropdown-item:hover:nth-child(2) {
-  background-color: $red;
+  background-color: $blue;
 }
 
 a.nav-link.dropdown-item:hover:nth-child(3) {
-  background-color: $purple;
+  background-color: $red;
 }
 
 a.nav-link.dropdown-item:hover:nth-child(4) {
-  background-color: $cream;
+  background-color: $purple;
 }
 
 a.nav-link.dropdown-item:hover:nth-child(5) {
-  background-color: $yellow;
+  background-color: $cream;
 }
 
 a.nav-link.dropdown-item:hover:nth-child(6) {
-  background-color: $cristal;
+  background-color: $yellow;
 }
 
 a.nav-link.dropdown-item:hover:nth-child(7) {
+  background-color: $cristal;
+}
+
+a.nav-link.dropdown-item:hover:nth-child(8) {
   background-color: $green;
 }
 
