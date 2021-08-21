@@ -38,17 +38,10 @@
     <p>
       La pièce de 2€ est détectable à 1,2m et celle de 1€ à 0,8m.
     </p>
-
     <div class="image">
       <%= image_tag 'piece-1.WebP' %>
     </div>
-
-    <h4>1.1.2.  Influence de l'aimantation</h4>
-    <hr class="separateur-xs">
-    <p>
-      Les signaux en rouge de la figure précédente changent lorsque la pièce est frottée par le pôle Sud de l’aimant: en face les baguettes se croisent et à 90° elles s’écartent. La face de la pièce devient pôle Nord et l’autre face pôle Sud. Les autres signaux ne sont pas modifiés.
-    </p>
-    <h4>1.1.3.  Influence de la surface</h4>
+    <h4>1.1.2.  Influence de la surface</h4>
     <hr class="separateur-xs">
     <p>
       Une pièce de 1€ sur la tranche est détectable à une distance D maximale de 0,8m si l’on se place en face. Si l’on superpose deux pièces de 1€ dans les mêmes conditions, la distance D reste la même. La surface vue par les baguettes est identique dans les deux cas. <br>
@@ -79,10 +72,11 @@
     <div class="image">
       <%= image_tag 'piece-3.WebP' %>
     </div>
-    <h3>1.4.  Comportement de l'auminium</h3>
+    <h3>1.4.  Comportement de l'aluminium</h3>
     <hr class="separateur-l">
     <p>
-      Le papier d’aluminium alimentaire étudié a une face conductrice et l’autre isolante qui est mate. Les baguettes réagissent vis à vis de la face conductrice de la même manière que vis à vis du cuivre ou du zinc. Devant la face mate, les baguettes ne réagissent pas et ne révèlent donc pas le métal aluminium situé de l’autre côté.
+      Le papier d’aluminium alimentaire étudié a une face conductrice et l’autre isolante qui est mate. Les baguettes réagissent vis à vis de la face conductrice de la même manière que vis à vis du cuivre ou du zinc. <br>
+      Devant la face mate, les baguettes réagissent de la même manière.Devant la face mate, les baguettes réagissent de la même manière.
     </p>
     <h4>1.4.1  Distance de détection</h4>
     <hr class="separateur-xs">
@@ -129,21 +123,10 @@
     </div>
     <h4>2.1.2.  Contact isolant - conducteur</h4>
     <hr class="separateur-xs">
+    <h5 class="surligne">2.1.2.1.  Caractérisation de l’isolant</h5>
     <p>
-      Il est possible de tester l’efficacité d’un isolant avec les baguettes: quand l’isolant se trouve seul au-dessus d’un conducteur, les baguettes détectent le conducteur, à condition qu’il soit potentiellement dépourvu de charges triboélectriques. On détecte une pièce de 1€ si elle est recouverte de papier.
-    </p>
-    <p>
-      Ce cas est différent de celui du papier l’aluminium où la face mate non conductrice est chimiquement déposée sur la face métallique: les baguettes ne répondent pas lorsqu’elles sont en face de la face mate alors qu’elles le devraient si la partie mate et métallique étaient séparées. <br>
-      Il en est de même avec un objet en fer qui perd son signal lorsqu’il est peint.
-    </p>
-    <p>
-      Si l’on recouvre une pièce de nickel avec le papier d’aluminium, on détectera le signal de l’aluminium si la pièce est couverte par la partie isolante du papier. Dans le cas contraire il n’y a pas de signal car deux métaux de composition différentes sont en contact.
-    </p>
-    <div class="image">
-      <%= image_tag 'alum.WebP' %>
-    </div>
-    <p>
-      On peut aussi tester l’efficacité d’un isolant avec les baguettes en utilisant deux conducteurs différents : si l’on pose une pièce de nickel sur une pièce de cuivre il n’y a pas de signal. Si l’on met un papier sec entre les deux pièces, on obtient le signal du cuivre. Il disparait si l’on mouille l’isolant par un liquide conducteur comme l’eau du robinet, ce qui revient à mettre les deux pièces en contact. Le signal subsiste si l’on remplace l’eau par de l’huile.
+      Quand l’isolant se trouve seul au-dessus d’un conducteur, les baguettes détectent le conducteur, à condition que l’isolant soit potentiellement dépourvu de propriétés triboélectriques. On détecte une pièce de 1€ si elle est recouverte de papier. <br>
+      Il est aussi possible de tester l’efficacité d’un isolant en utilisant deux conducteurs : si l’on pose une pièce de nickel sur une pièce de cuivre il n’y a pas de signal. Si l’on met un papier sec entre les deux pièces, on obtient le signal du cuivre. Le signal disparait si l’on mouille l’isolant par un liquide conducteur comme l’eau ionisée. Il subsiste si l’on remplace l’eau par de l’huile.
     </p>
     <div class="image">
       <%= image_tag 'cui-nik.WebP' %>
@@ -151,23 +134,44 @@
     <p>
       On dispose ainsi d’un moyen simple pour tester l’efficacité d’un isolant selon sa composition, son épaisseur, sa texture.
     </p>
+    <h5 class="surligne">2.1.2.2.  Cas du papier d'aluminium</h5>
+    <p>
+      Souvent, le papier d’aluminium alimentaire a une face conductrice et l’autre isolante qui est mate. <br>
+      Si l’on recouvre une pièce de nickel avec ce papier, on détectera le signal de l’aluminium si la pièce est couverte par la partie isolante du papier. Dans le cas contraire il n’y a pas de signal car deux métaux de composition différentes sont en contact.
+    </p>
+    <div class="image">
+      <%= image_tag 'alum.WebP' %>
+    </div>
+    <h5 class="surligne">2.1.2.3.  Cas d'une peinture</h5>
+    <p>
+      Une pièce de fer rendue isolante par une couche de peinture donne le même signal que la pièce sans peinture. Ceci indique que la transformation superficielle conducteur / isolant n’est pas détectable directement avec les baguettes. Il faut déposer l’échantillon sur un autre conducteur comme le côté conducteur d’une feuille d’aluminium ou une pièce de cuivre pour l’identifier : les baguettes réagissent devant le fer couvert de peinture.
+    </p>
+    <div class="image">
+      <%= image_tag 'oxydation.WebP' %>
+    </div>
+
+    <h5 class="surligne">2.1.2.4.  Cas des poudres</h5>
     <p>
       On peut aussi suivre avec les baguettes le passage isolant /conducteur appliqué aux poudres.
     </p>
     <p>
-      La blende ZnS est un minéral isolant. Pour la récupérer par flottation après broyage, on ajoute en solution du cuivre (II) qui réagit à la surface de ZnS selon la réaction d’activation: <br>
+      La blende ZnS est un minéral isolant. Pour la récupérer par flotation après broyage, on ajoute en solution du cuivre (II) qui réagit à la surface de ZnS selon la réaction d’activation: <br>
       ZnS (isolant) + Cu<sup>2+</sup> = CuS (conducteur) + Zn<sup>2+</sup> <br>
       La blende devient conductrice du fait de la formation de CuS et peut fixer alors le xanthate comme collecteur. <br>
-      Il suffit de déposer sur une pièce de monnaie un peu de poudre de ZnS activé. Les baguettes ne réagissent pas si l’activation est satisfaisante car les compositions chimiques de la couche de CuS et de la pièce sont différentes.
+      Il suffit de déposer sur une pièce de monnaie un peu de poudre de ZnS activé qui est conductrice. Les baguettes ne réagissent pas si l’activation est satisfaisante car on a alors deux conducteurs différents en contact.
     </p>
     <div class="image">
       <%= image_tag 'zns.WebP' %>
     </div>
+    <p>
+      Rappelons que les baguettes ne répondent pas lorsque l’on a un aimant dans la main.
+      Ceci conforte l’hypothèse de Y. Rocard sur l’effet du champ magnétique sur la réponse du sourcier.
+    </p>
     <h4>2.1.3.  Contact conducteur - ferrite</h4>
     <hr class="separateur-xs">
     <p>
       La ferrite n’est pas conductrice, mais elle ne se comporte pas en isolant vis-à-vis des métaux comme on l’a déjà mentionné. <br>
-      Lorsque le métal repose sur la face pure N ou S de la ferrite, les baguettes donnent le signal du métal. Par contre s’il repose sur une face mixte, les baguettes ne répondent pas.
+      Lorsque le métal repose sur la face pure N ou S de la ferrite, les baguettes donnent le signal du métal. En revanche, s’il repose sur une face mixte, les baguettes ne répondent pas.
     </p>
     <p>
       Si l’on met la ferrite entre une pièce de nickel et une pièce de cuivre, les baguettes donnent le signal du métal occupant la position supérieure. Tout se passe comme si l’aimant se comporte comme un isolant.
@@ -188,7 +192,7 @@
     <p>
       Pour l’illustrer on peut mentionner l’histoire des pièces d’or: <br>
       Des amis se trouvent dans une salle avec un sourcier qui montre deux pièces d’or rigoureusement identiques. Il demande à l’un d’entre eux de cacher l’une d’elle quand il sera sorti de la salle et se propose de la retrouver en revenant avec ses baguettes et l’autre pièce d’or. <br>
-      En rentrant, il pose la pièce d’or sur une table et en fait le tour tangentiellement avec ses baguettes. Cette pièce va jouer le rôle de témoin. <br>
+      En rentrant, il pose la pièce d’or sur une table et en fait le tour tangentiellement avec ses baguettes. Cette pièce va jouer le rôle de témoin de la pièce recherchée. <br>
       A un endroit précis les baguettes réagissent: elles indiquent l’axe reliant les deux pièces. Une première direction est ainsi déterminée. Il déplace ensuite la pièce témoin et recommence l’opération. Une deuxième direction est précisée. La pièce cachée est située à l’intersection des deux directions détectées.
     </p>
     <div class="image">
@@ -258,10 +262,24 @@
     </p>
     <h2>3.  COMPORTEMENT DE L’EAU EN PRESENCE D’UN METAL</h2>
     <hr class="separateur-xl">
-    <h3>3.1.  Inhibition de la détection des métaux par l’eau</h3>
+    <h3>3.1.  L’eau est dans un récipient</h3>
     <hr class="separateur-l">
     <p>
-      Les liquides, comme les ferrites et les solides dépourvus de charges triboélectriques, sont eux aussi susceptibles d’inhiber la réponse des métaux.
+      Si l’on prend une boite en cuivre parallélépipédique sans eau, les baguettes vont vers la boite quand on tourne autour d’elle. Si l’on y met de l’eau, seule deux directions perpendiculaires aux deux faces sont détectables.
+    </p>
+    <p>
+      J’ai observé qu’une bouteille de vin avec bouchon métallique recouvert d’une fine couche isolante donne le même signal. En revanche celui-ci disparait si l’on raye le bouchon en le rendant conducteur.
+    </p>
+    <div class="image">
+      <%= image_tag 'boite-cuivre.WebP' %>
+    </div>
+    <p>
+      Une bouteille de cidre ne donne pas de signal car son bouchon est retenu sur la bouteille par des fils conducteurs.
+    </p>
+    <h3>3.2.  Inhibition de la détection des métaux par l’eau</h3>
+    <hr class="separateur-l">
+    <p>
+      Les liquides, comme les ferrites et les solides dépourvus de propriétés triboélectriques, sont eux aussi susceptibles d’inhiber la réponse des métaux.
     </p>
     <p>
       Il est impossible en effet de détecter en position A une boule d’aluminium si un verre d’eau s’y trouve devant. Par contre on peut détecter l’eau si l’on s’éloigne de la cible d’aluminium. Il en est de même en B si la distance entre le verre d’eau et la boule n’est pas trop grande. Cette distance d’inhibition en B doit dépendre à la fois de la taille de la boule d’aluminium et du volume d’eau.
@@ -292,15 +310,7 @@
     <div class="image">
       <%= image_tag 'pile-ferrite.WebP' %>
     </div>
-    <h3>3.2.  Comportement des boites de conserve et de bouteilles encapsulées</h3>
-    <hr class="separateur-l">
-    <p>
-      Une boite de conserve en fer blanc attire l’aimant. Quand elle est pleine de petits pois, on constate que les baguettes ne donnent pas le signal du fer mais se dirigent parallèlement vers la boite. Ceci est dû au fait que la boite de conserve est recouverte vernis isolant. Si on raye la boite, on retrouve le signal du fer. <br>
-      On constate de plus que la distance d’approche limite D passe de 0,9 à 1,2m lorsque la boite contient des salsifis ou des choix de Bruxelles. Quand elle est pleine d’eau, la distance D atteint 4m. On n’observe plus de signal quand elle est vide.
-    </p>
-    <p>
-      J’ai observé qu’une bouteille de bière ne donne de signal qu’une fois la capsule métallique enlevée. Par contre les baguettes donnent un signal lorsqu’elles font face à une bouteille de lait fermée par une capsule d’aluminium. Cela tient au fait que la capsule d’aluminium n’est pas conductrice, ses deux faces étant mates.
-    </p>
+
     <h3>3.3.  Inhibition de la détection des métaux par une pile </h3>
     <hr class="separateur-l">
     <p>
@@ -308,15 +318,55 @@
       Quand on place sur l’axe d’une pile bâton une pièce d’1€ devant l’un de ses pôles, on observe l’absence de signal latéral du coté de ce pôle, et le signal de la pile au niveau du second pôle. Le signal de la pièce de 1€ n’est pas détecté. La présence de la pile inhibe donc son signal caractéristique.
     </p>
     <div class="image">
-      <%= image_tag 'pile-conducteur.WebP' %>
+      <%= image_tag 'pile-conducteur-2.WebP' %>
     </div>
     <p>
-      On observe les mêmes phénomènes qu’avec l’eau ou les ferrites lorsque l’on chevauche l’axe de la pile: le croisement des baguettes est maximal (d=2,5) lorsque la pièce se trouve devant le pôle de la pile et minimal lorsqu’elle se trouve au niveau de l’autre pôle (d= 3,5).
+      On observe les mêmes phénomènes qu’avec l’eau ou les ferrites lorsque l’on chevauche l’axe de la pile: le croisement des baguettes est maximal (d=2,5) lorsque la pièce se trouve devant le pôle de la pile et minimal lorsqu’elle se trouve au niveau de l’autre pôle (d= 3,5). <br>
+      On observe les mêmes phénomènes que ceux détectés avec l’eau et les ferrites.
     </p>
+    <div class="image">
+      <%= image_tag 'pile-conducteur.WebP' %>
+    </div>
+    <h3>3.4.  Comportement des boites de conserve et de bouteilles encapsulées</h3>
+    <hr class="separateur-l">
+    <p>
+      Il y a deux types de boites : le premier rassemble les boites de conserves qui attirent l’aimant. Elles sont en fer blanc, métal qui est constitué d’une lame de fer recouverte d’étain. En contact avec les aliments elle est de plus recouverte d’un vernis isolant. Les boites de petits pois, de salsifis, de choux de Bruxelles, entrent dans cette catégorie. <br>
+      Le second type rassemble les boites non magnétiques, généralement en aluminium comme les boites de poissons: sardines, maquereaux, thons, etc...
+    </p>
+    <h4>3.4.1.  Boites en fer blanc</h4>
+    <hr class="separateur-xs">
+    <p>
+      La réponse de la boite de choux, bien que magnétique, est sensiblement différente de celle du fer. Les baguettes s’orientent vers la boite lorsque le couvercle est en haut et dans le sens contraire lorsque l’on retourne la boite. Il y a donc un effet de symétrie de la boite. On note une valeur de D = 1,6m, que la boite soit verticale ou couchée.
+    </p>
+    <p>
+      Il y a interaction entre les deux boites verticales sur la distance D’= 3,2m à condition qu’elles soient dans la même position. On retrouve cette valeur si les deux boites sont couchées à condition que les couvercles se fassent face. Il faut noter que le couvercle de chaque boite est équipé d’une ouverture.
+    </p>
+    <p>
+      On retrouve les mêmes signaux avec une boite de salsifis répondant aux mêmes critères que la boite de choux: poids 800g, volume 850ml, poids du contenu égoutté 500g. Cependant, la valeur de D est sensiblement plus petite: D = 0,4m. Cette grandeur dépend donc du contenu de la boite.
+    </p>
+    <div class="image">
+      <%= image_tag 'boite-fer.WebP' %>
+    </div>
+    <p>
+      Si l’on vide la boite, les baguettes sont sans réponse quand le couvercle est ouvert l’air car l’étain ne recouvre plus totalement le fer au niveau de l’ouverture. Si l’on inverse la position, les baguettes réagissent: D= 3,6m, de même pour la boite couchée, le fond devant, car les baguettes ne voient plus la superposition Sn/Fe. <br>
+      Après avoir calfeutré avec du scotch la liaison Sn/Fe brisée par l’ouverture, et après avoir rempli d’eau la boite, on aboutit à D = 5,2m. <br>
+      Si l’on couvre un verre d’eau par la boite, les baguettes ne réagissent plus.
+    </p>
+    <h4>3.4.2.  Boites en aluminium </h4>
+    <hr class="separateur-xs">
+    <p>
+      Les signaux sont plus complexes dans le cas d’une boite de sardines (135g). On note en particulier une position de la boite où aucun signal n’est détecté. La valeur de D est de 20cm. Il existe une interaction entre deux boites identiques lorsqu’elles sont disposées comme sur la figure, les deux dispositions résultant d’une rotation sur le plan de 90°. <br>
+      La boite de maquereaux (175g) qui est 1,3 fois plus lourde donne les mêmes signaux, mais la distance de détection est beaucoup plus élevée: D= 1,0m.
+    </p>
+    <div class="image">
+      <%= image_tag 'boite-alu.WebP' %>
+    </div>
+
+
     <h2>4.  CONCLUSION</h2>
     <hr class="separateur-xl">
     <P>
-      L’utilisation des baguettes permet de préciser facilement un grand nombre de données concernant les métaux. Il est ainsi possible de les détecter, de vérifier l’identité de composition, de préciser leur surface, leur réaction à la température. Il est possible de tester l’efficacité d’un isolant, de suivre des transformations de poudres minérales. Cette étude a permis de préciser également au niveau de leur détection, le rôle inhibiteur des ferrites, des solides dépourvus de charges triboélectriques, des liquides et d’une pile.
+      L’utilisation des baguettes permet de préciser facilement un grand nombre de données concernant les métaux. Il est ainsi possible de les détecter, de vérifier l’identité de composition, de préciser leur surface, leur réaction à la température. Il est possible de tester l’efficacité d’un isolant, de suivre des transformations de poudres minérales. Cette étude a permis de préciser également au niveau de leur détection, le rôle inhibiteur des ferrites, des solides dépourvus de propriétés triboélectriques, des liquides et des piles. Enfin, les baguettes sont susceptibles de donner des informations sur les boites de conserve et de les différentier en fonction de leur symétrie ou de leur contenu en utilisant la règle des témoins.
     </P>
   </div>
 </div>
