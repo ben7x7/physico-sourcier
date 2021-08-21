@@ -10,7 +10,7 @@
 }
 
 .home-down {
-  background-color: $dark-gray;
+  background-color: white;
   padding-bottom: 60px;
 }
 .home-title {
@@ -38,11 +38,11 @@
 
 .header-text {
   padding: 20px 15px;
-  color: $light-gray;
+  color: $dark-gray;
 }
 
 .experiences {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding-bottom: 40px;
   display: flex;
@@ -56,16 +56,12 @@ a.logo-links:hover {
 
 .experience-card {
   display: block;
-  width: 80px;
+  width: 100px;
   margin: 5px 5px;
 }
 
-.experience-card:hover {
-  transform: scale(1.2);
-}
-
 .experience-icon {
-  width: 80px;
+  width: 100px;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -104,8 +100,8 @@ a.logo-links:hover {
 }
 
 .expe {
-  color: $light-gray;
-  font-size: 13px !important;
+  color: $dark-gray;
+  font-size: 16px !important;
   font-weight: 600 !important;
   width: 100%;
   text-transform: uppercase;
