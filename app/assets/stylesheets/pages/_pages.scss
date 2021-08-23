@@ -40,6 +40,7 @@ img {
 .image {
   text-align: center;
   padding: 1.5rem 1rem;
+  overflow: hidden;
 }
 
 .double img {
@@ -48,7 +49,7 @@ img {
 
 // *******************************  La METHODE  **********************************
 #methode {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('bag.WebP');
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('lamethode.WebP');
 }
 
 // *******************************  L'EAU  **********************************

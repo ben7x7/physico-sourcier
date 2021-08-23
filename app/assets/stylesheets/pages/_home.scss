@@ -1,19 +1,26 @@
 .home-top {
-  background-image: image-url('home.WebP');
-  background-size: cover;
-  background-position: center;
+  // background-image: image-url('home.WebP');
+  // background-size: cover;
+  // background-position: center;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 700px;
+  height: 50vh;
   padding-top: 70px;
   position: relative;
+  color: white;
+  background-color: #074e81;
+}
+
+.home-top > h1 {
+  font-size: 32px !important;
 }
 
 .home-down {
   background-color: #074e81;
   padding-bottom: 60px;
+  height: 50vh;
 }
 
 
@@ -89,16 +96,20 @@ a.logo-links:hover {
   margin-bottom: 0px;
 }
 
+.banner-sciences {
+  height: 300px;
+  overflow: hidden;
+}
+
 .main-title {
   margin-bottom: 50px;
 }
 
-#info,
-#auteur {
+#info {
   max-width: 850px;
   text-align: justify;
   margin: 50px auto;
-  padding: 20px 30px;
+  padding: 50px 30px;
   background-color: white;
 }
 
