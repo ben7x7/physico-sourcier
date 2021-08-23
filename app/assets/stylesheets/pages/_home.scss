@@ -1,7 +1,7 @@
 .home-top {
-  background-image: image-url('accueil.WebP');
+  background-image: image-url('home.WebP');
   background-size: cover;
-
+  background-position: center;
 
   display: flex;
   align-items: center;
@@ -12,36 +12,14 @@
 }
 
 .home-down {
-  background-color: white;
+  background-color: #074e81;
   padding-bottom: 60px;
 }
-.home-title {
-  color: white;
-  text-transform: none;
-  padding: 45px 30px;
-  width: 500px;
-  height: 205px;
-  position: relative;
-}
 
-.home-title > h1 {
-  font-size: 28px !important;
-  letter-spacing: 1.5px;
-}
-
-.filter {
-  background-color: black;
-  opacity: 0.6;
-  position: absolute;
-  width: 500px;
-  height: 205px;
-  padding: 45px 30px;
-  border-radius: 5px;
-}
 
 .header-text {
   padding: 20px 15px;
-  color: $dark-gray;
+  color: white;
 }
 
 .experiences {
@@ -103,7 +81,7 @@ a.logo-links:hover {
 }
 
 .expe {
-  color: $dark-gray;
+  color: white;
   font-size: 16px !important;
   font-weight: 600 !important;
   width: 100%;
