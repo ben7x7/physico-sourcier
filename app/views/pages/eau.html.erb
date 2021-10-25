@@ -91,7 +91,7 @@
     <p>
       La surface des contenants pour un même poids d’eau joue un rôle déterminant au niveau des valeurs de Dm et de Z. <br>
       On compare les valeurs de Dm et Z selon les positions que prennent deux bouteilles de bière contenante chacune 250ml d’eau. <br>
-      Les valeurs de Dm passent successivement de 4,0 à 2,0 puis 2,5m quand elles sont debout, quand les fonds se font face, et quand un fond fait face à une bouteille debout. La valeur de Z est égale à 0 dans les deux premiers cas et diffère de zéro quand les  surfaces opposées sont différentes. <br>
+      Les valeurs de Dm passent successivement de 4,0 à 2,0 puis 2,5m quand elles sont debout, quand les fonds se font face, et quand un fond fait face à une bouteille debout. La valeur de Z est égale à 0 dans les deux premiers cas et diffère de zéro quand les surfaces opposées sont différentes. <br>
       Pour un même poids d’eau, les surfaces mises en jeu sont donc déterminantes.
     </p>
     <div class="image">
@@ -104,55 +104,28 @@
     <h2>2.  CARACTERISATION DES SOLUTIONS</h2>
     <hr class="separateur-xl">
     <p>
-      L’introduction d’un soluté dans un liquide modifie souvent la réponse des baguettes. Les cas des solutions aqueuses de NaCl puis des liquides alimentaires sont examinés.
+      L’introduction d’un soluté dans un liquide modifie souvent la réponse des baguettes. Les cas des solutions aqueuses puis des liquides alimentaires sont examinés.
     </p>
     <br>
     <h3>2.1.  Solution de NaCl: mesure de D</h3>
     <hr class="separateur-l">
     <p>
-      On veut caractériser la concentration des solutions par la mesure de D pour un  volume V = 100ml. On prépare une solution de NaCl à la concentration 0,085M en introduisant 5g de NaCl (PM = 58,5g) dans 1 litre. La valeur de D correspondant à cette concentration élevée est non mesurable car trop petite. Les essais réalisés après dilution à 20,7° sur le même volume de 100ml montrent que la distance D diminue à mesure que la conductivité de la solution augmente. Le remplacement de NaCl par HCl à la même concentration entraine des variations de D plus importante, la conductibilité &#955<sub>H<sup>+</sup></sub> étant supérieure à &#955<sub>Na<sup>+</sup></sub>.
+      L’ajout progressif de chlorure de sodium dans un volume constant V=100ml entraine une diminution sensible de la valeur de D par suite de l’accroissement de conductivité de la solution. La variation est approximativement linéaire à condition de rester dans un faible domaine de concentration.
     </p>
     <div class="image">
-      <%= image_tag 'graftab.png' %>
+      <%= image_tag 'titrage-1.png' %>
     </div>
-    <p>
-      Il faut remarquer que la mesure réalisée en absence de NaCl porte en réalité sur l’eau du robinet qui contient un certain nombre d’ions. Il serait intéressant de comparer sa réponse avec celle de l’eau distillée.
-    </p>
     <br>
-    <h3>2.2.  Une solution de concentration connue Co est utilisée comme réfèrent</h3>
+    <h3>2.2.  Caractérisation de la dureté d’une eau</h3>
     <hr class="separateur-l">
     <p>
-      Lorsque la concentration Co est la même dans les deux verres, le changement d’orientation des baguettes apparait à mi-distance des verres: Z=0.
-    </p>
-    <p>
-      Si Cx > Co, ce changement se rapproche du verre référent contenant la solution la plus diluée Co. <br>
-      Z est compté positivement et obéit à la relation
-      <span class="equation">
-        Z = 0,5Dm (1-Co/Cx)
-      </span>
-    </p>
-    <p>
-      Si Cx < Co le changement d’orientation des baguettes se déplace vers l’autre verre. <br>
-      Z est alors négatif:
-      <span class="equation">
-        Z = -0,5Dm (1-Cx/Co)
-      </span>
-    </p>
-    <p>
-      Lorsque la concentration Cx est élevée, la mesure devient difficile: <br>
-      si V = V’ et Cx/Co = 10, le calcul indique que Z = 0,45Dm. <br>
-      Si Dm = 10m, on se trouve alors à 0,05Dm soit à 50cm du verre référent, ce qui devient limite pour une mesure précise. <br>
-      On dilue alors la solution à analyser ou on la compare à un référent plus concentré.
+      Il est possible d’évaluer la dureté de l’eau du robinet en comparant sa distance D avec celle de l’eau distillée à même température. <br>
+      Une eau dure est une eau riche en calcium. Elle est caractérisée par son degré hydrotimétrique F. Celle que nous examinons a une valeur de 28°F ce qui correspond à 28x4=112mg/l de calcium, d’où une concentration égale à 2,8&times10<sup>-3</sup>M. Le calcium se trouvant principalement sous forme d’ions libres Ca<sup>2+</sup> , la solution est donc conductrice. <br>
+      On voit sur la figure que la valeur de D varie de 4,5m à 2,8m lorsque l’on passe de l’eau distillée, très peu ionisée, à l’eau du robinet conductrice, le volume des solutions examinées étant de 100ml. Il est possible de suivre l’évolution pratiquement linéaire de D avec la dilution de l’eau du robinet dans l’eau distillée.
     </p>
     <div class="image">
-      <%= image_tag 'concentration.png' %>
+      <%= image_tag 'titrage-2.png' %>
     </div>
-    <p>
-      Il est important de signaler qu’il n’existe pas d’interaction entre un verre d’eau pure et un verre contenant NaCl 8,5&times10<sup>-5</sup>M. L’utilisation de l’eau pure comme référent est donc impossible.
-    </p>
-    <p>
-      Les mesures se faisant debout, il est important de pouvoir disposer de la distance maximale surtout lorsque l’on augmente sensiblement la concentration. On a donc intérêt à opérer sur des volumes importants pour accroitre la valeur de Dm.
-    </p>
     <br>
     <h3>2.3.  Liquides alimentaires</h3>
     <hr class="separateur-l">
