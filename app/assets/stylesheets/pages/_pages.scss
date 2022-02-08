@@ -24,6 +24,7 @@
   margin: 0 auto;
   padding: 80px 15px;
   text-align: justify;
+  overflow: hidden;
 }
 
 img {
@@ -49,7 +50,7 @@ img {
 
 // *******************************  La METHODE  **********************************
 #methode {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('lamethode.WebP');
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('methode.WebP');
 }
 
 // *******************************  L'EAU  **********************************
@@ -86,5 +87,5 @@ img {
 
   // *******************************  BIO VEGETALE  **************************
 #biologie {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('vegetale.WebP');
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.4) 20%), image-url('biologie.WebP');
 }

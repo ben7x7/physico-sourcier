@@ -57,6 +57,16 @@ hr.separateur-xs {
   border: none !important;
 }
 
+hr.surligne {
+  height: 2px;
+  background: rgb(15,15,15);
+  background: -moz-linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(248,247,247,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(248,247,247,1) 100%);
+  background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(248,247,247,1) 100%);
+  margin: 0px 0px 30px 0px !important;
+  border: none !important;
+}
+
 span.equation {
   display: flex;
   width: 100%;
