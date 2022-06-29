@@ -1,131 +1,264 @@
-<div class="banner" id="biologie">
-  <h1 class="main-title">BIOLOGIE</h1>
-</div>
-<div class="section-bio">
-  <div class="sub-section">
-    <h2>1. BIOLOGIE VEGETALE</h2>
-    <hr class="sep separateur-xl">
-    <h3>1.1.  Propriétés triboélectriques des fruits et légumes</h3>
-    <hr class="sep separateur-l">
-    <p>
-      Les baguettes sont inactives lorsque l’on place devant elles certains fruits comme la poire, la pomme, le pamplemousse, la tomate. Il en est de même avec certains légumes comme la pomme de terre, le navet, le concombre. <br>
-      En revanche, les baguettes s’ouvrent lorsqu’on les approche du melon, de la banane et de la pêche.
-    </p>
-    <p>
-      J’ai constaté que les constituants du premier groupe, tel la tomate, frotté avec un papier plastique ne génèrent pas de charges triboélectriques, alors que ceux du second groupe comme le melon le font. <br>
-      Si l’on place une pomme devant une pièce de monnaie, on constate que les baguettes ne répondent pas. Elle se comporte donc comme un inhibiteur du signal de la pièce.
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-1.WebP' %>
+<div class="section">
+  <div class="banner" id="biologie">
+    <h1 class="main-title">BIOLOGIE</h1>
+  </div>
+  <div class="experience">
+    <div class="title">
+      <h2>1. BIOLOGIE VÉGÉTALE</h2>
+      <hr class="sep-h2">
     </div>
-    <p>
-      Si maintenant la pomme est pelée ou coupée, les baguettes s’écartent. Elle devient alors génératrice de charges triboélectriques, et perd son caractère inhibiteur.
-    </p>
-    <h3>1.2.  Comportement des baguettes vis à vis des fruits</h3>
-    <hr class="sep separateur-l">
-    <p>
-      J’ai constaté qu’une banane donnait trois signaux à angle droit qui s’inversent lorsque sa position dans le plan tournait de 180° ; la distance D est égale à 2,0m lorsque le fruit n’est pas mûr et tombe à 0,3m lorsqu’il est très mûr.
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-2.WebP' %>
+    <div class="title">
+      <h3>1.1. Comportement des baguettes vis-à-vis des arbres</h3>
+      <hr class="sep-h3">
+      <h4>1.1.1. Montée de la sève</h4>
+      <hr class="sep-h4">
     </div>
-    <p>
-      Les baguettes ne répondent plus lorsque l’on enlève la peau.
-    </p>
-    <p>
-      Il y a interaction entre deux bananes issues du même lot, séparées de Dm = 4m, uniquement lorsqu’elles sont dans une position symétrique.
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-3.WebP' %>
-    </div>
-    <p>
-      Dans le cas d’une pèche plate juste mûre posée horizontalement, les baguettes s’orientent vers l’extérieur du fruit et s’écartent lorsque l’on se place au-dessus du fruit. D = 50cm. Les signaux s’inversent lorsque le fruit subit une rotation verticale de 90°. La valeur de D passe de 50 à 5cm lorsque le fruit devient très mûr.
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-4.WebP' %>
-    </div>
-    <p>
-      Lorsque deux pêches sont superposées ou en contact latéral face à l’opérateur, la distance D est double de celle mesurée pour une seule pêche. SI les deux pêches sont l’une derrière l’autre, la distance D est égale à celle d’une seule pêche. <br>
-      Il y a interaction entre les deux pêches sur une distance inférieure à 70cm.
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-5.WebP' %>
-    </div>
-
-    <h3>1.3.  Comportement des baguettes vis à vis des arbres</h3>
-    <hr class="sep separateur-l">
-    <p>
+    <P>
       Les baguettes s’écartent lorsque l’on s’approche à D=50cm d’un jeune arbre pourvu de feuilles. On a constaté aussi qu’il était nécessaire de s’en rapprocher davantage la nuit pour retrouver le même signal. <br>
       En automne, on peut suivre la diminution de D au cours du jaunissement des feuilles de cet arbre et sa valeur zéro lorsque toutes les feuilles sont tombées, les baguettes ne répondant plus. <br>
-      Les ouvrages de botanique indiquent qu’il existe deux types de sève: une sève montante riche en eau qui s’évapore par les feuilles, et une sève descendante beaucoup moins riche en eau. Lorsque les feuilles sont tombées, les deux sèves s’arrêtent pour reprendre leur trajet au printemps. <br>
+      Inversement la distance D augmente rapidement avec la naissance des fleurs d’un Prunus. Il est de 10cm aux premières fleurs et passe rapidement à 70cm une semaine après. <br>
+      Les ouvrages de botanique indiquent qu’il existe deux types de sève : une sève montante riche en eau qui s’évapore par les feuilles, et une sève descendante beaucoup moins riche en eau. Lorsque les feuilles sont tombées, les deux sèves s’arrêtent pour reprendre leur trajet au printemps. <br>
       La photosynthèse qui est réduite la nuit joue un rôle essentiel au niveau de la montée de la sève.
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-6.WebP'  %>
-    </div>
-    <p>
-      Le signal des baguettes est identique à celui que l’on observe quand on se trouve en face d’une conduite verticale lorsque l’eau monte. Les baguettes indiquent donc la montée de la sève riche en eau. Elles sont inactives devant un arbre mort.
-    </p>
-
-    <h3>1.4.  Influence de la présence d’une conduite d’eau sur la végétation</h3>
-    <hr class="sep separateur-l">
-    <p>
-      Une atténuation localisée de la hauteur de la végétation dans une bordure a été observée à l’endroit précis où passe une conduite d’eau qui est à 5m de profondeur.
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-7.WebP'  %>
-    </div>
-    <p>
-      Le tronc d’un tilleul est profondément modifié par le passage de l’eau sous ses pieds. Il en est de même pour un arbre tordu au bord du Canal.
-    </p>
-    <h3>1.5.  Réponse des baguettes vis-à-vis des fleurs</h3>
-    <hr class="sep separateur-l">
-    <p>
-      On observe trois types de signaux:
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-8.WebP'  %>
-    </div>
-    <p>
-      Les valeurs de D dépendent d’une fleur à l’autre: 2,0m pour l’agapanthe 1,0 m pour le géranium. Elles diminuent avec la vie de la fleur et avec la fermeture des pétales comme pour la gazania.
-    </p>
-
-    <br>
-    <h2>2. BIOLOGIE ANIMALE</h2>
-    <hr class="sep separateur-xl">
-    <h3>2.1.  Réponses d’un œuf</h3>
-    <hr class="sep separateur-l">
-    <p>
-      Il m’a paru intéressant de voir si les baguettes donnaient un signal lorsqu’elles se trouvaient devant un œuf. La réponse a été positive et riche de possibilités.
-    </p>
-    <h3>2.2.  Influence de la position de l’œuf</h3>
-    <hr class="sep separateur-l">
-    <p>
-      S’il repose verticalement sur son extrémité la plus large, les baguettes s’éloignent radialement de l’œuf sur une distance D=1,5m à 21° et s’écartent au-dessus de l’œuf. S’il repose sur l’autre extrémité, on observe les signaux inverses.
-    </p>
-    <div class="image double">
-      <%= image_tag 'bio-fig-9.WebP' %>
-      <%= image_tag 'bio-fig-10.WebP' %>
-    </div>
-    <p>
-      Si l’œuf est couché, on constate que les baguettes mettent en évidence trois axes orthorhombiques. <br>
-      Lorsque la plus forte extrémité se trouve à gauche de l’opérateur, les baguettes s’écartent au niveau de l’axe vertical. Au niveau horizontal, les deux axes s’orientent vers l’extérieur, les valeurs de D étant respectivement de 1,5m pour l’axe joignant les deux extrémités et 0,75m pour l’autre axe perpendiculaire. <br>
-      Les signaux sont inversés si la plus forte extrémité se trouve à droite de l’opérateur.
-    </p>
-    <h3>2.3.  Interaction entre deux œufs</h3>
-    <hr class="sep separateur-l">
-    <p>
-      La règle des témoins est observée lorsque les extrémités de même nature se font face à face. La distance limite entre les œufs est plus grande lorsque les faces les plus grandes se font faces : D’> D. <br>
-      Il n’y a pas d’interaction entre les deux œufs lorsque les extrémités sont différentes. On constate également qu’un œuf en position verticale supprime les signaux d’un œuf couché. Par ailleurs on constate que les signaux disparaissent lorsque deux œufs sont en position verticale mais en sens inverse.
-    </p>
-    <div class="image">
-      <%= image_tag 'bio-fig-11.WebP' %>
-    </div>
-    <br>
-    <h2>3. CONCLUSION</h2>
-    <hr class="sep separateur-xl">
-    <P>
-      Les quelques expériences menées en biologie végétale et animale soulignent l’intérêt que peut présenter l’utilisation des baguettes pour suivre le murissement d’un fruit, la vie d’une fleur, expliquer la forme particulière d’un tronc d’arbre, suivre la montée de la sève dans un tilleul. Les réponses inattendues d’un œuf invitent à poursuivre les expériences pour connaitre l’influence éventuelle de son origine et de sa fraicheur sur ses signaux.
     </P>
+
+    <div class="image">FIG-1</div>
+
+    <P>
+      Le signal des baguettes est identique à celui que l’on observe quand on se trouve en face d’une conduite verticale lorsque l’eau monte. Les baguettes indiquent donc la montée de la sève riche en eau. Elles sont inactives devant un arbre mort.
+    </P>
+    <div class="title">
+      <h4>1.1.2. Influence de la présence d’une conduite d’eau sur la végétation</h4>
+      <hr class="sep-h4">
+    </div>
+    <P>
+      L’arbre n’aime pas que l’eau circule sous ses pieds, et il le fait savoir : <br>
+      Une atténuation localisée de la hauteur de la végétation dans une bordure a été observée à l’endroit précis où passe une conduite d’eau qui est à 5m de profondeur.
+    </P>
+
+    <div class="image">FIG-2</div>
+
+    <P>
+      Le tronc d’un tilleul est profondément modifié par le passage de l’eau sous ses pieds. Il en est de même pour un arbre tordu au bord du Canal. <br>
+      On constate également qu’une veine d’eau passe souvent sous un arbres "cancéreux" ou présentant deux troncs en V.
+    </P>
+
+    <div class="image">FIG-3</div>
+
+    <div class="title">
+      <h3>1.2. Comportement des baguettes vis-à-vis des fruits</h3>
+      <hr class="sep-h3">
+      <h4>1.2.1. Propriétés triboélectriques des fruits</h4>
+      <hr class="sep-h4">
+    </div>
+    <P>
+      <ul>J’ai constaté avec surprise que certains fruits donnaient un signal lorsqu’on les approchait avec les baguettes en L, et d’autres non. On peut les ranger dans trois catégories.
+        <li>
+          La première réunit des fruits comme les pommes Chanteclair et Golden, la clémentine, Lorsque l’on s’en approche frontalement, les baguettes en L s’ouvrent, si l’on s’en approche tangentiellement les deux baguettes s’écartent du fruit (opposition); elles se croisent si l’on se place au-dessus.
+        </li>
+        <li>
+          Dans la deuxième catégorie, on trouve les pommes Pink Lady, la grenade qui donnent les signaux inverses : les baguettes se croisent quand on les approche frontalement et se dirigent vers les fruits lorsqu’on les approche tangentiellement (attraction).
+        </li>
+
+Les fruits de ces deux catégories ne donnent plus de signal lorsqu’ils sont coupés ou pelés même légèrement.
+
+        <li>• La dernière catégorie réunit les fruits qui ne donnent pas de signal comme l’avocat, le pamplemousse, la tomate, la rainette du Canada. Cependant, ces fruits une fois coupés ou pelés légèrement entrent dans l’une des deux catégories précédentes : la tomate coupée se comporte comme la grenade alors que la rainette coupée se comporte comme la Chanteclair.</li>
+
+      </ul>
+    </P>
+
+    <div class="image">FIG-4</div>
+
+    <P>
+      J’ai constaté que les constituants du troisième groupe, tel la tomate, frottés avec une tige de verre ne génèrent pas de charges triboélectriques, alors que ceux du premier et du deuxième groupe le font. Les charges triboélectriques sont mises en évidence par l’attirance de petits papiers très fins par la tige de verre.
+    </P>
+    <p>
+      Si l’on place une rainette (catégorie 3) devant une pièce de 1€, on constate que les baguettes ne répondent pas au-dessus de la pomme ni au voisinage de la pièce. La rainette se comporte donc comme un inhibiteur du signal de la pièce.
+    </p>
+
+    <div class="image">FIG-5</div>
+
+    <P>
+      Si maintenant la rainette est pelée ou coupée, les baguettes s’écartent. Elle entre alors dans la catégorie 1, devient alors génératrice de charges triboélectriques et perd son caractère inhibiteur.
+    </P>
+    <p>
+      La pomme Chanteclair de la catégorie 1 n’a pas de caractère inhibiteur vis-à-vis de la pièce de 1€ qui est détectable. En revanche si la pomme est frottée par un tissu, elle devient inhibitrice. Il en est de même pour les fruits de la catégorie 2.
+    </p>
+    <p>
+      Globalement on constate que les fruits des catégories 1 et 2 se comportent vis-à-vis des baguettes comme des conducteurs (cf. électricité 4.2.2.) : celles-ci se croisent au-dessus d’une tige de verre frottée par les fruits de la catégorique 1, s’ouvrent dans le cas des fruits de catégorie 2 et restent inertes pour les fruits de la catégorie 3.
+    </p>
+
+    <div class="image">FIG-6</div>
+
+    <div class="title">
+      <h4>1.2.2. Limites de détection, règle des témoins</h4>
+      <hr class="sep-h4">
+    </div>
+    <P>
+      La distance à partir de laquelle un fruit peut être détecté dépend de sa fraicheur. Une Chanteclair achetée aujourd’hui est détectable à une distance de 70cm, distance qui passera à 20cm dans une semaine. <br>
+      La règle des témoins permet de vérifier si deux fruits sont de la même espèce. Quand on rapproche deux Pink Lady (catégorie 2), qui seules attirent les baguettes, on constate que leur orientation entre les deux pommes change jusqu’à une distance de détection qui est le double de celle correspondant à la pomme seule. <br>
+      Si l’on fait la même expérience avec deux Chanteclair (catégorie 1) qui isolées repoussent les baguettes, on retrouve leur signal entre les deux pommes à partir du moment où l’espace les séparant est inférieur au double de la distance de détection de la pomme isolée. <br>
+      Si maintenant on met en face deux pommes d’espèces différentes appartenant à la catégorie 1 ou 2, les baguettes ne réagissent pas. <br>
+      On peut donc utiliser cette méthode pour rechercher une Chanteclair dans un ensemble de pommes d’origines diverses lui ressemblant   en utilisant une Chanteclair comme témoin. <br>
+      Par ailleurs on peut noter qu’un fruit comme la pomme peut se retrouver selon les espèces dans les trois catégories.
+    </P>
+    <div class="title">
+      <h4>1.2.3. Influence de la symétrie</h4>
+      <hr class="sep-h4">
+    </div>
+    <P>
+      J’ai constaté qu’une banane donnait trois signaux à angle droit qui s’inversent lorsque sa position dans le plan tourne de 180°; la distance D est égale à 2,0m lorsque le fruit n’est pas mûr et tombe à 0,3m lorsqu’il est très mûr.
+    </P>
+
+    <div class="image">FIG-7</div>
+
+    <P>Les baguettes ne répondent plus lorsque l’on enlève la peau.</P>
+    <p>
+      Il y a interaction entre deux bananes issues du même lot, séparées de Dm=4m, uniquement lorsqu’elles sont dans une position symétrique.
+    </p>
+    <div class="image">FIG-8</div>
+
+    <div class="title">
+      <h3>1.3. Comportement des baguettes vis-à-vis des légumes</h3>
+      <hr class="sep-h3">
+    </div>
+    <P>
+      Il est possible de ranger les légumes dans les trois catégories définies pour les fruits. Quelques exemples sont rassemblés dans le tableau suivant :
+    </P>
+
+    <div class="image">FIG-9</div>
+
+    <P>
+      Les similitudes de comportement avec les fruits appartenant à la même catégorie sont bien mises en évidence. Par exemple, l’amandine non coupée est inhibitrice vis-à-vis du signal d’une pièce de 1€ comme la pomme rainette, alors que coupée elle ne l’est plus. Coupée puis frottée sur une tige de verre, elle se comporte comme une tomate coupée ou une Calville vis-à-vis des baguettes qui s’ouvrent.
+    </P>
+    <div class="title">
+      <h3>1.4. Comportement des baguettes vis-à-vis des fleurs</h3>
+      <hr class="sep-h3">
+      <h4>1.4.1. Classification</h4>
+      <hr class="sep-h4">
+    </div>
+    <P>
+      Comme dans le cas des fruits et des légumes, il est possible de ranger les fleurs dans les trois catégories précédentes.
+    </P>
+
+    <div class="image">FIG-10</div>
+
+
+    <div class="image">FIG-11</div>
+
+    <div class="title">
+      <h4>1.4.2. Caractéristiques du signal</h4>
+      <hr class="sep-h4">
+    </div>
+    <P>
+      Le signal apparait lorsque la fleur est bien ouverte. La distance d’approche de la fleur diminue avec son vieillissement et s’annule lorsque la fleur est fanée. <br>
+      Elle diminue également lorsque la lumière baisse : pour une orchidée placée dans une pièce éclairée la distance d’approche est égale à 1,2m; cette distance passe à 0,5m en fin de journée pour s’annuler complétement la nuit. L’éclairage électrique modéré de la pièce fait réapparaitre un signal de 0,2m. <br>
+      Il faut noter aussi qu’une fleur cueillie ne donne plus de signal.
+    </P>
+    <p>
+      <ul>
+        Je pense que le signal des fleurs est directement lié à leurs propriétés triboélectriques.
+        <li>
+          Si l’on frotte l’orchidée avec un mouchoir, les baguettes se croisent au niveau du mouchoir, indiquant un échange de charges électrostatiques et la charge positive de l’orchidée.
+        </li>
+        <li>
+          • Si l’on fait la même expérience avec une Pensée, on observe les signaux inverses : les baguettes s’écartent au-dessus d’un mouchoir après frottement, la fleur étant alors négative.
+        </li>
+      </ul>
+    </p>
+    <div class="title">
+      <h4>1.4.3. Interaction entre les fleurs</h4>
+      <hr class="sep-h4">
+    </div>
+    <P>
+      Comme pour les fruits et les légumes de la catégories 1 et 2, la règle des témoins permet de vérifier si deux fleurs sont de la même espèce. <br>
+      Quand on rapproche deux Pensées non coupées (catégorie 2), qui isolées attirent les baguettes, on constate que leur orientation entre elles change à partir du moment où la distance les séparant est inférieure au double de la distance de détection de la fleur seule. <br>
+      Si l’on fait la même expérience avec deux géranium (catégorie 2) qui isolées repoussent les baguettes, on retrouve leur signal entre les deux fleurs à partir du moment où l’espace les séparant est inférieur au double de la distance de détection de la fleur isolée.SI cet espace est supérieur, le signal disparait lorsque l’on se place à mi-distance des deux fleurs. <br>
+      SI maintenant on met en face deux fleurs d’espèces différentes appartenant à la catégorie 1 ou 2, les baguettes ne réagissent pas.
+    </P>
+    <div class="title">
+      <h3>1.5. Conclusion</h3>
+      <hr class="sep-h3">
+    </div>
+    <p>
+      <ul>
+        Il ressort de cette étude deux constatations importantes :
+        <li>
+          La première concerne l’aptitude que présentent les baguettes pour discerner les cibles qui relèvent du vivant. Contrairement à ce qui est observé dans le cas des solutions et des matériaux déjà examinés, on constate que la distance d’approche du végétal examiné varie avec le temps, par exemple lors de la montée de la sève dans les arbres ou lors du murissement d’un fruit pour s’annuler lorsqu’un arbre est mort ou qu’une fleur est coupée.
+        </li>
+        <li>
+          La deuxième constatation concerne le fait que fruits, légumes et fleurs se rangent tous dans trois catégories, la première rassemble les cibles qui repoussent les baguettes, la deuxième celles qui les attirent, et la troisième celles qui les ignorent.
+        </li>
+      </ul>
+      Les premières analyses de ces phénomènes indiquent que cette classification est liée aux charges triboélectriques portées par les cibles. La catégorie 3 rassemble les cibles dépourvues de charges triboélectriques. Ce sont souvent des fruits et légumes à peau lisse ou épaisse comme les pamplemousses, les tomates, les aubergines. Elles se comportent comme inhibitrice des signaux générés par d’autres cibles, végétales ou non, mais perdent cette aptitude à partir du moment où elles sont coupées ou pelées.
+    </p>
+    <p>
+      Les deux autres catégories ont des polarités inversées. Elles deviennent inhibitrices de signaux radiesthésistes lorsqu’elles sont frottées par un tissu. Leur charge électrique est alors nulle.
+    </p>
+    <p>
+      Des échanges avec les biologistes sont envisagés pour connaitre le rôle des phénomènes électriques sur la vie d’un végétal et préciser les facteurs qui déterminent sa place dans l’une des trois catégories.
+    </p>
+
+
+    <div class="title">
+      <h2>2. BIOLOGIE ANIMALE</h2>
+      <hr class="sep-h2">
+    </div>
+    <P>
+      Il m’a paru intéressant de poursuivre les expériences de radiesthésie dans le domaine de la biologie animale pour voir si l’on retrouvait la particularité des signaux liés au monde du vivant. Voir si les baguettes donnaient un signal lorsqu’elles se trouvaient devant un œuf était un objectif. La réponse a été positive et riche de possibilités. <br>
+      Les expériences ont été menées dans un poulailler d’un collège où les élèves sont sensibilisés à la vie animale et à sa préservation.
+    </P>
+    <div class="title">
+      <h3>2.1. Réponses d’un œuf non fécondé</h3>
+      <hr class="sep-h3">
+    </div>
+    <P>
+      Rappelons d’abord que la couleur des œufs dépend de la couleur de la poule. Ils sont jaune-bruns lorsqu’elle est brune, et blancs lorsqu’elle est blanche. Les mesures ont été réalisées sur des œufs beiges. <br>
+      Si l’œuf est couché, le signal des baguettes dépend de la position des extrémités différentes de l’œuf par rapport à l’opérateur. <br>
+      Si la partie pointue est à sa droite, on constate que les baguettes se dirigent vers l’œuf, et s’ouvrent au-dessus.  Si cette extrémité se trouve à sa gauche, on observe le sens inverse. <br>
+      La distance de détection est de 1,50m à 21° lorsque l’on fait face à une extrémité et de 0,90m lorsque l’on se trouve sur l’autre axe à 90°. <br>
+      Si l’œuf, debout, repose sur son extrémité la plus large, les baguettes s’orientent vers l’extérieur de l’œuf et s’ouvrent au-dessus. Les signaux sont inversés lorsque l’œuf repose sur sa petite extrémité. Ces résultats sont identiques quelle que soit la couleur de l’œuf.
+    </P>
+
+    <div class="image">FIG-12</div>
+
+    <P>
+      La distance de détection D diminue avec la température. Elle passe dans le premier cas de 1,5m à. 0,5m lorsque la température passe de 21° à 6°. <br>
+      La distance de détection diminue également avec la fraicheur de l’œuf. On retrouve ici le signe caractéristique d’une structure issue du vivant. On voit qu’au bout de trois semaines, limite de la fraicheur, la valeur de D passe de 1,5m à 0,3m. On retrouve ici le signe caractéristique d’une structure issue du vivant. <br>
+      On constate par ailleurs que la charge triboélectrique d’un œuf est supérieure à celle d’un mouchoir de coton auquel il a été frotté, les baguettes se croisant au-dessus du mouchoir.
+    </P>
+    <div class="title">
+      <h3>2.2. Interaction entre deux œufs non fécondés</h3>
+      <hr class="sep-h3">
+    </div>
+    <P>
+      La règle des témoins est observée lorsque les extrémités de même nature se font face à face. La distance limite entre les œufs est plus grande lorsque les faces les plus grandes se font face : D’>D. <br>
+      Il n’y a pas d’interaction entre les deux œufs lorsque les extrémités sont différentes. On constate également qu’un œuf en position verticale supprime les signaux d’un œuf couché. Par ailleurs on constate que les signaux disparaissent lorsque deux œufs sont en position verticale mais en sens inverse.
+    </P>
+
+    <div class="image">FIG-13</div>
+
+    <P>
+      Si les deux œufs viennent de deux poules différentes, mais de la même espèce, les interactions ont également lieu. En revanche elles disparaissent si les œufs mis en jeu sont de couleurs différentes, par exemple jaune brun et blanc, les deux poules étant alors de deux espèces différentes. Il est probable que ce résultat reste confirmé, même si les poules sont de même couleur. <br>
+      On peut donc dans la pratique trier avec les baguettes des œufs issus de poules d’espèces différentes.
+    </P>
+    <div class="title">
+      <h3>2.3. Réponses d’un œuf fécondé</h3>
+      <hr class="sep-h3">
+    </div>
+    <P>
+      On sait qu’un œuf non fécondé peut être détecté par mirage : il est transparent à la lumière, alors qu’un œuf fécondé perd sa transparence au bout de quelques jours. Il s’agit de savoir si les baguettes font la différence entre œuf fécondé et non fécondé.
+    </P>
+    <p>
+      Les mesures réalisées sur un œuf fécondé blanc, montrent l’inactivité des baguettes et donc l’impossibilité de détecter les axes de symétrie mis en évidence sur les œufs non fécondés. Elles peuvent donc jouer le même rôle qu’un appareil de détection mirage. <br>
+      Il n’existe donc pas d’interaction entre œuf fécondé et non fécondé issus d’une même espèce de poule. <br>
+      Ces premiers résultats sur les œufs mettent en évidence l’apport des baguettes dans le domaine du concret pour la sélection des œufs non fécondés et sur les interactions entre œufs issus de poules d’origines différentes.
+    </p>
+    <div class="title">
+      <h2>3. CONCLUSION</h2>
+      <hr class="sep-h2">
+    </div>
+    <p>
+      Les quelques expériences menées en biologie végétale et animale soulignent l’intérêt que peut présenter l’utilisation des baguettes pour suivre le murissement d’un fruit, la vie d’une fleur, expliquer la forme particulière d’un tronc d’arbre, suivre la montée de la sève dans un tilleul. Les réponses inattendues d’un œuf invitent à poursuivre les expériences pour connaitre l’influence de sa fraicheur sur ses signaux.
+    </p>
   </div>
 </div>
