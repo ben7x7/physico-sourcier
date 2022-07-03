@@ -16,11 +16,15 @@
       La distance de détection de la pile augmente avec sa tension : lorsque la pile plate est debout et que l’on se place sur la ligne des deux pôles, la distance D est de 4,2m quand la pile est neuve, sa tension étant de 4,5V. Cette distance diminue avec l’usure puisqu’elle passe à 2,2m quand la tension est de 3,8V. Les signaux des baguettes sont inversés lorsque les pôles de la pile le sont. <br>
       Les baguettes peuvent donc être utilisées comme voltmètre pour évaluer une tension de pile une fois la distance D étalonnée.
     </p>
-
-    <div class="image">FIG-1</div>
-    <div class="image">FIG-2</div>
-    <div class="image">FIG-3</div>
-
+    <div class="image">
+      <%= image_tag('electricite-1.WebP') %>
+    </div>
+    <div class="image">
+      <%= image_tag('electricite-2.WebP') %>
+    </div>
+    <div class="image">
+      <%= image_tag('electricite-3.WebP') %>
+    </div>
     <div class="title">
       <h3>1.2. Interaction entre piles</h3>
       <hr class="sep-h3">
@@ -28,9 +32,9 @@
     <p>
       Si l’on place deux piles sur une même ligne, les pôles + et – se succédant, les baguettes se dirigent dans la même direction (A). Cependant les signaux entre les deux piles disparaissent si deux pôles de même nature se succèdent (B).
     </p>
-
-    <div class="image">FIG-4</div>
-
+    <div class="image">
+      <%= image_tag('electricite-4.WebP') %>
+    </div>
     <div class="title">
       <h3>1.3. Interaction pile/eau, pile/conducteur et pile/ferrite</h3>
       <hr class="sep-h3">
@@ -38,15 +42,15 @@
     <p>
       Lorsque l’on place sur l’axe d’une pile bâton un verre d’eau, on constate que les baguettes sont inactives lorsque l’eau est placée devant un pôle de la pile. Elles suivent le signal de la pile au niveau de l’autre pôle.
     </p>
-
-    <div class="image">FIG-5</div>
-
+    <div class="image">
+      <%= image_tag('electricite-5.WebP') %>
+    </div>
     <p>
       Si l’on chevauche l’axe de la pile dans le sens + - on constate le croisement des baguettes d3 devant la pile seule. Ce croisement augmente et passe à d2,5 lorsque l’eau est devant le pôle de la pile, et diminue à d3,5 lorsque l’eau se trouve derrière.
     </p>
-
-    <div class="image">FIG-6</div>
-
+    <div class="image">
+      <%= image_tag('electricite-6.WebP') %>
+    </div>
     <p>
       On observe les mêmes phénomènes quand on remplace l’eau par un conducteur tel une pièce de 0,50€ ou une ferrite qui est magnétique mais non conductrice.
     </p>
@@ -59,26 +63,26 @@
       Lorsque l’on chevauche la ligne dans le sens du courant les baguettes s’écartent. Elles se croisent quand on opère en sens inverse. <br>
       Il n’y a pas de réponse des baguettes lorsque les deux fils sont en sens inverse, le signal de l’un annulant celui de l’autre car de signe opposé.
     </p>
-
-    <div class="image">FIG-7</div>
-
+    <div class="image">
+      <%= image_tag('electricite-7.WebP') %>
+    </div>
     <p>
       L’écartement ou le croisement des baguettes en un point du circuit augmente avec l’intensité.
     </p>
     <p>
       Lorsque le fil est vertical et parcouru par un courant descendant, les baguettes s’écartent du fil quand on tourne tangentiellement autour de lui et se croisent quand on l’approche de face.
     </p>
-
-    <div class="image">FIG-8</div>
-
+    <div class="image">
+      <%= image_tag('electricite-8.WebP') %>
+    </div>
     <p>
       On constate que le croisement des baguettes dépend de la section du fil où passe le courant. Elles sont donc sensibles à la densité de courant qui est définie par la relation: <br>
-Intensité = densité de courant × section du conducteur <br>
+      <span class="equation">Intensité = densité de courant × section du conducteur</span>  <br>
       où la densité de courant mesure la vitesse de déplacement des électrons dans le conducteur.
     </p>
-
-    <div class="image">FIG-9</div>
-
+    <div class="image">
+      <%= image_tag('electricite-9.WebP') %>
+    </div>
     <p>
       Dans le circuit présenté ci-dessus, l’intensité mesurée par un ampèremètre en 1, 2 ou 3 est la même, alors que la section des fils constituant le circuit ne l’est pas. <br>
       On constate que le croisement des baguettes diminue en passant de 1 à 3 à mesure que la section du fil augmente. La réponse des baguettes en un point donné dépend donc de la densité de courant.
@@ -86,9 +90,9 @@ Intensité = densité de courant × section du conducteur <br>
     <p>
       On fait passer un courant de 4A dans un fil de 0,5mm de diamètre relié à un fil plus épais de 1,0m dont le diamètre est de 2mm. Le rapport des surfaces est de 16. On note la graduation d3 pour le fil le plus fin et d4 pour l’autre.
     </p>
-
-    <div class="image">FIG-10</div>
-
+    <div class="image">
+      <%= image_tag('electricite-10.WebP') %>
+    </div>
     <p>
       La courbe caractérisant la variation du signal d des baguettes en fonction de l’intensité n’est donc pas la même aux points 1, 2 et 3. Pour une intensité donnée la valeur de d augmente avec la section du fil. On voit que les variations de d sont plus importantes pour des intensités inférieures à 1 ampère. <br>
       On constate une certaine similitude de ces courbes avec celle qui traduit les variations du signal des baguettes avec le débit d’une veine d’eau.
@@ -111,9 +115,9 @@ Intensité = densité de courant × section du conducteur <br>
       Certains caténaires sont alimentés en courant continu de plus de 1000 ampères. Le train se déplace dans le sens du courant qui peut être détecté sur une passerelle ou sous un viaduc. On constate que les baguettes s’écartent ou se croisent au maximum. <br>
       Il est donc possible de savoir avec les baguettes, sur une passerelle où passent plusieurs lignes dans quel sens va passer un train sur une voie donnée avant qu’il n’arrive.
     </p>
-
-    <div class="image">FIG-11</div>
-
+    <div class="image">
+      <%= image_tag('electricite-11.WebP') %>
+    </div>
     <p>
       En conclusion, il est important de souligner les analogies de comportement des  baguettes vis-à-vis d’une veine d’eau et d’un courant continu. Les mouvements des molécules d’eau et des électrons conduisent aux mêmes conclusions tant au niveau de la direction des fluides, qu’au niveau des débits.
     </p>
@@ -127,9 +131,9 @@ Intensité = densité de courant × section du conducteur <br>
     <p>
       Sur la ligne de distribution souterraine horizontale sont branchées de part et d’autre les lignes allant vers les habitations.
     </p>
-
-    <div class="image">FIG-12</div>
-
+    <div class="image">
+      <%= image_tag('electricite-12.WebP') %>
+    </div>
     <p>
       Au niveau des lignes aériennes, seules les lignes téléphoniques sont détectables. A partir de la ligne d’alimentation qui se trouve dans la rue, portée par des poteaux porteurs d’une étiquette bleue, partent les lignes allant vers les maisons que les baguettes révèlent au sol. <br>
       Quand on se trouve en face d’un téléphone, les baguettes s’orientent vers l’appareil. Lorsqu’il y a une sonnerie, les baguettes se dirigent en sens inverse.
@@ -145,9 +149,9 @@ Intensité = densité de courant × section du conducteur <br>
       De l’autre côté du mur, où il n’y a rien d’apparent, elles s’orientent et s’ouvrent au même endroit dans le même sens. On peut suivre la ligne arrivant à cette prise, les baguettes s’orientant vers la prise. <br>
       Il est ainsi possible de détecter la présence de prises cachées derrière des meubles.
     </p>
-
-    <div class="image">FIG-13</div>
-
+    <div class="image">
+      <%= image_tag('electricite-13.WebP') %>
+    </div>
     <div class="title">
       <h3>3.2. Alimentation de prises de courant</h3>
       <hr class="sep-h3">
@@ -155,9 +159,9 @@ Intensité = densité de courant × section du conducteur <br>
     <p>
       Les baguettes indiquent que la ligne alimentant la prise A ne peut venir que de B et non de C ou D. Entre deux prises, les baguettes répondent seulement si elles sont sur la même ligne.
     </p>
-
-    <div class="image">FIG-14</div>
-
+    <div class="image">
+      <%= image_tag('electricite-14.WebP') %>
+    </div>
     <div class="title">
       <h3>3.3. Contrôle de branchement</h3>
       <hr class="sep-h3">
@@ -167,9 +171,9 @@ Intensité = densité de courant × section du conducteur <br>
       Quand elle reste branchée mais éteinte, les baguettes donnent un signal et se dirigent vers l’interrupteur. Après l’interrupteur, le signal disparait. <br>
       Lorsque la lampe est débranchée il n’y a plus de signal.
     </p>
-
-    <div class="image">FIG-15</div>
-
+    <div class="image">
+      <%= image_tag('electricite-15.WebP') %>
+    </div>
     <div class="title">
       <h2>4. ELECTROSTATIQUE</h2>
       <hr class="sep-h2">
@@ -180,9 +184,9 @@ Intensité = densité de courant × section du conducteur <br>
       Lorsque l’on approche une tige conductrice du pôle + de la pile, il apparait des charges opposées sur les extrémités de la tige que l’on peut identifier avec les baguettes. <br>
       L’intervalle de détection d des signaux augmente avec la tension de la pile.
     </p>
-
-     <div class="image">FIG-16</div>
-
+    <div class="image">
+      <%= image_tag('electricite-16.WebP') %>
+    </div>
     <div class="title">
       <h3>4.2. Triboélectricité</h3>
       <hr class="sep-h3">
@@ -198,13 +202,13 @@ Intensité = densité de courant × section du conducteur <br>
     <p>
       Les baguettes ne donnent pas de signal devant les tiges de verre ou d’ébonite, ou devant de la laine ou du papier. <br>
       En revanche quand on frotte une tige de verre sur de la laine, la tige de verre prend des charges positives, les baguettes sont dirigées vers l’extérieur de la tige et s’ouvrent au-dessus. La laine prend des charges négatives, les signaux sont inversés: les baguettes se dirigent vers la laine alors qu’elles se croisent au-dessus. <br>
-      On a aussi constaté un phénomène inattendu : si après frottement on touche avec la main la laine, on constate que les baguettes se croisent au-dessus de la tige de verre au lieu de s’ouvrir, la laine perdant son signal. SI l’on touche la tige de verre, on observe le phénomène inverse. <br>
+      On a aussi constaté un phénomène inattendu: si après frottement on touche avec la main la laine, on constate que les baguettes se croisent au-dessus de la tige de verre au lieu de s’ouvrir, la laine perdant son signal. SI l’on touche la tige de verre, on observe le phénomène inverse. <br>
       Si l’on frotte une tige d’ébonite avec de la laine, les signaux sont inversés: la tige d’ébonite est négative : les baguettes se croisent au-dessus, et s’ouvrent au-dessus de la laine. <br>
       Il y a conformité avec la série triboélectrique proposée.
     </p>
-
-    <div class="image">FIG-17</div>
-
+    <div class="image">
+      <%= image_tag('electricite-17.WebP') %>
+    </div>
     <p>
       Il existe aussi des objets après frottement qui ne donnent pas de signal en face des baguettes de sourcier car ils ne libèrent pas de charge électrique : c’est le cas de certains plastiques, de tissus et de fruits comme on le verra en biologie végétale. Ils se comportent comme des inhibiteurs de signaux radiesthésistes lorsqu’ils sont placés devant un conducteur.
     </p>
@@ -227,7 +231,6 @@ Intensité = densité de courant × section du conducteur <br>
       Casser un morceau de sucre crée un phénomène lumineux et des charges électriques opposées sur chacun des morceaux (triboluminescence). <br>
       On peut caractériser le morceau porteur de la charge + ou - avec les baguettes et évaluer la durée de vie de ces charges.
     </p>
-
     <div class="title">
       <h2>5. CONCLUSION</h2>
       <hr class="sep-h2">
