@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get 'electricite', to: 'pages#electricite', as: :electricite
   get 'ondes', to: 'pages#ondes', as: :ondes
   get 'magnetisme', to: 'pages#magnetisme', as: :magnetisme
-  get 'conducteurs', to: 'pages#conducteurs', as: :conducteurs
+  get 'conducteur', to: 'pages#conducteur', as: :conducteur
   get 'cristaux', to: 'pages#cristaux', as: :cristaux
   get 'biologie', to: 'pages#biologie', as: :biologie
 
