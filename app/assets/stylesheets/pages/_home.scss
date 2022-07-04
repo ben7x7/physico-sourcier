@@ -1,8 +1,4 @@
 .home-top {
-  // background-image: image-url('home.WebP');
-  // background-size: cover;
-  // background-position: center;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,7 +6,7 @@
   padding-top: 70px;
   position: relative;
   color: white;
-  background-color: #074e81;
+  background-color: $marine;
 }
 
 .home-top > h1 {
@@ -18,11 +14,10 @@
 }
 
 .home-down {
-  background-color: #074e81;
+  background-color: $marine;
   padding-bottom: 60px;
   height: 50vh;
 }
-
 
 .header-text {
   padding: 20px 15px;
@@ -76,7 +71,7 @@ a.logo-links:hover {
 .bg-cristals {
   background-color: $cristal;
 }
-.bg-metaux {
+.bg-conducteur {
   background-color: $yellow;
 }
 .bg-biologie {
